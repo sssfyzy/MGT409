@@ -1,0 +1,30 @@
+# Credentials and local-only course data
+.env
+.env.*
+!.env.example
+data/
+data*.zip
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Local duplicate of the Problem 11 screenshots; app_check_images is submitted.
+output/screenshots/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

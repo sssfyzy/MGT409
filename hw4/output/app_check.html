@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Customs — Problem 11 Browser Check</title>
+  <style>
+    :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #17324f; background: #f7f5f0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: #0d315b; color: #fff; padding: 3rem max(1.5rem, calc((100vw - 1050px) / 2)); }
+    header p { color: #d7e4ef; max-width: 68ch; line-height: 1.6; }
+    main { max-width: 1050px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h1 { font-size: clamp(2rem, 4vw, 3rem); margin: .5rem 0; }
+    h2 { margin-top: 0; }
+    .eyebrow { color: #c6a46c; font-size: .82rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    .summary, section { background: #fff; border: 1px solid #e2e5e8; border-radius: 12px; padding: 1.6rem; margin-bottom: 1.5rem; }
+    .summary p, section p, li { line-height: 1.6; }
+    .pass { display: inline-block; background: #e7f5e9; color: #12602d; border-radius: 999px; font-weight: 700; padding: .35rem .8rem; }
+    figure { margin: 1.2rem 0 0; }
+    img { display: block; width: 100%; height: auto; border: 1px solid #d7dfe5; border-radius: 8px; }
+    figcaption { color: #53677a; font-size: .9rem; line-height: 1.5; margin-top: .5rem; }
+    code { background: #f0f3f5; border-radius: 3px; padding: .1rem .3rem; }
+    .evidence { border-left: 4px solid #c6a46c; padding-left: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">MGT 409 · Homework 4 · Problem 11</div>
+    <h1>Campus Customs browser check</h1>
+    <p>Real screenshots from the running local storefront at <code>http://127.0.0.1:5173</code> on September 29, 2026. The backend was running at <code>http://127.0.0.1:8000</code>. The three demonstrations are a database-backed stock answer, dynamic chatbot product cards, and the student-selected F1 product filter.</p>
+  </header>
+  <main>
+    <div class="summary">
+      <span class="pass">3 demonstrations passed</span>
+      <p>These are browser observations, not mockups. The screenshots show the visible results; additional checks of catalogue values, image loading, and card navigation are stated separately below. Inventory is stored by product and size, not by color and size.</p>
+    </div>
+
+    <section>
+      <div class="eyebrow">01 · Database-backed chatbot stock answer</div>
+      <h2>XS is out of stock for the Baseball Left Chest Crewneck</h2>
+      <p><strong>Action:</strong> On the Baseball Left Chest Crewneck detail page, asked: “Is this crewneck in stock in size XS? How many are available?”</p>
+      <p><strong>Observed:</strong> The chatbot answered: “The Baseball Left Chest Crewneck is out of stock in size XS—0 are currently available.” The product API backed by the supplied SQLite database also reported <code>XS: 0</code>. The answer did not claim availability for a particular color-and-size combination.</p>
+      <p class="evidence"><strong>What the screenshot proves:</strong> The question was asked on the correct product page, and the live chatbot returned the zero-stock answer. The separate database/API cross-check establishes that the number matches the stored inventory.</p>
+      <figure>
+        <img src="app_check_images/stock-xs.png" alt="Baseball Left Chest Crewneck detail page with chatbot reply saying XS is out of stock and zero are available">
+        <figcaption>Figure 1. Product-page stock question and live response.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <div class="eyebrow">02 · Dynamic chatbot product cards</div>
+      <h2>Hoodie search returns catalogue-backed cards</h2>
+      <p><strong>Action:</strong> On the Products page, asked: “What hoodies do you have?”</p>
+      <p><strong>Observed:</strong> The chatbot replied with six hoodie recommendations and rendered six cards with a product image, name, price, and short description. Browser checks found all six images loaded. Clicking the Basic Hoodie Big Yale chat card opened <code>/products/basic-hoodie-big-yale</code>, where the matching product name, image, price, and size stock appeared.</p>
+      <p class="evidence"><strong>What the screenshots prove:</strong> Figure 2 shows the shopper's question, reply, and first dynamic card. Figure 3 shows two complete cards with distinct images and prices. The successful link click and all-six image checks were verified in the same browser session, beyond what a still image alone can prove.</p>
+      <figure>
+        <img src="app_check_images/chat-hoodies-query.png" alt="Chat question What hoodies do you have with a reply and the first product card">
+        <figcaption>Figure 2. The hoodie question produces a conversational reply and a product card.</figcaption>
+      </figure>
+      <figure>
+        <img src="app_check_images/chat-hoodies-cards.png" alt="Chat panel showing two hoodie product cards with images, names, prices, and descriptions">
+        <figcaption>Figure 3. Multiple dynamically rendered hoodie cards.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <div class="eyebrow">03 · Problem 9 improvement F1</div>
+      <h2>Product search and maximum-price filtering</h2>
+      <p><strong>Action:</strong> On the Products page, entered <code>hood</code> in Search products and <code>50</code> in Maximum price ($), leaving Product type at All types.</p>
+      <p><strong>Observed:</strong> The live result count changed from 102 of 102 products to 2 of 102 products. The two matching cards were Ua Gameday Double Knit Hood and Yale Sports Hoodie Tennis, each priced at $45. Both images loaded in the browser. This is the student-selected F1 demonstration, not F3 chat retry.</p>
+      <p class="evidence"><strong>What the screenshot proves:</strong> The entered filter values, reduced result count, two images, two product names, and their $45 prices are visible together.</p>
+      <figure>
+        <img src="app_check_images/filter-hood-under-50.png" alt="Products page filtered by hood and maximum price 50, showing two matching $45 product cards">
+        <figcaption>Figure 4. F1 filtering narrows 102 catalogue items to two matching $45 products.</figcaption>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>
