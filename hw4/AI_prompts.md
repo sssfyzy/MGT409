@@ -154,10 +154,20 @@ The first response unnecessarily stopped to request another description of Probl
 
 > What about Problems 12 and 13? Continue working on them.
 
-### Follow-up prompt
+### Follow-up prompts
 
-None yet.
+> Can I make the repository private? What if someone copies my homework?
+
+> I will keep it private for now, then make it public just before submitting. Someone could still copy it on the last day, but I cannot prevent that.
+
+> https://github.com/sssfyzy/MGT409.git
+
+> What is the final submission format for this homework?
+
+> Does everything in the GitHub repository now meet the assignment requirements? Do I only need to make it public and submit the link?
+
+> Approved.
 
 ### First-attempt note
 
-Local submission files were prepared, but no public GitHub repository or Canvas submission has been made. The publication destination and approval are still needed.
+The first pass prepared the submission files locally but had not uploaded them or recorded my private-until-submission choice and repository URL. The `hw4/` folder has since been pushed to the specified GitHub repository. The repository remains private until I make it public before submitting its URL on Canvas; the Canvas submission has not been made.
