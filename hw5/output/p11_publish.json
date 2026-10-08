@@ -1,0 +1,22 @@
+{
+  "verified_at_utc": "2026-10-08T17:34:16.6387780Z",
+  "repository_url": "https://github.com/sssfyzy/MGT409",
+  "homework_directory_url": "https://github.com/sssfyzy/MGT409/tree/main/hw5",
+  "content_commit": "870322b863ab8e2b6ac4d87754c81f956386f71f",
+  "remote_main_matched_content_commit": true,
+  "verification_source": "Successful git push followed by git ls-remote and unauthenticated GitHub repository/tree API reads",
+  "public": true,
+  "repository_visibility_changed": false,
+  "hw4_tree_preserved": "9727a2daef740f8415e94685f043d5c0196d58b0",
+  "published_hw5_file_count_at_content_commit": 127,
+  "published_data_files": [
+    "hw5/data/campus_customs.db",
+    "hw5/data/campus_customs_new.db"
+  ],
+  "forbidden_paths_found": [],
+  "working_tree_clean_at_verification": true,
+  "fresh_environment_smoke_checks_passed": 11,
+  "fresh_environment_api_and_shared_context_tests_passed": 10,
+  "canvas_submission_performed": false,
+  "note": "This records the verified main HW5 content commit. A later documentation-only commit may add this publication evidence and its harness summary. The student must submit the repository URL to Canvas."
+}
