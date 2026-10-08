@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-10-08T15:52:22.749Z",
+  "source": "real dashboard / protected backend / MCP / working SQLite only",
+  "authorization": "Student chat: proceed with the disclosed existing homework obligations, translated and recorded in AI_prompts.md; assistant operates UI on that instruction",
+  "proposal": {
+    "action_id": "f6847813f9d897719513cf73eb2c32054efc1a1f8836e689c1a1886d67ac09fd",
+    "action": {
+      "ticket_id": 101,
+      "kind": "invoice",
+      "ref_id": 501,
+      "account": "checking",
+      "amount": 840,
+      "shop_date": "2026-08-31",
+      "balance_before": 3400,
+      "balance_after": 2560,
+      "details": {
+        "payee": "Bulldog Print Co",
+        "due_date": "2026-08-28"
+      }
+    },
+    "ready_for_approval": true,
+    "requires_human_approval": true,
+    "blockers": [],
+    "assumptions": [],
+    "executed": false
+  },
+  "cashBefore": {
+    "shop_date": "2026-08-31",
+    "account": {
+      "name": "checking",
+      "balance": 3400,
+      "date": "2026-08-31"
+    },
+    "generation": 0
+  },
+  "receipt": {
+    "executed": true,
+    "payment_id": 1,
+    "action": {
+      "account": "checking",
+      "amount": 840,
+      "balance_after": 2560,
+      "balance_before": 3400,
+      "details": {
+        "due_date": "2026-08-28",
+        "payee": "Bulldog Print Co"
+      },
+      "kind": "invoice",
+      "ref_id": 501,
+      "shop_date": "2026-08-31",
+      "ticket_id": 101
+    },
+    "approved_by": "Student-authorized P9 operator",
+    "paid_at": "2026-10-08T15:52:22.549127+00:00",
+    "inventory_received": false
+  },
+  "cashAfter": {
+    "shop_date": "2026-08-31",
+    "account": {
+      "name": "checking",
+      "balance": 2560,
+      "date": "2026-08-31"
+    },
+    "generation": 0
+  }
+}

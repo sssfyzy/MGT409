@@ -1,0 +1,141 @@
+{
+  "recorded_at_utc": "2026-10-08T15:08:14.097Z",
+  "source": "Real Chromium + fixture HTTP proxy + P7 API/MCP + offline model double + disposable SQLite",
+  "checks": [
+    "All three database tickets load and can be selected",
+    "A real asynchronous run appears live in the browser",
+    "Actual Boss-to-Facilities and Facilities-to-Accounting handoffs are rendered",
+    "Completed review does not falsely resolve a ticket or change cash",
+    "Actual per-agent contribution summaries are available",
+    "Opening payment review does not pay; explicit confirmation updates fixture cash to $1,000",
+    "A ticket becomes resolved only after the backend records its verified outcome",
+    "Insufficient-cash purchase is visibly blocked with a disabled payment action",
+    "Explicit fixture reset restores cash and invalidates pending proposals",
+    "Purchase confirmation requires both exact-payment and assumption checkboxes",
+    "Page reload restores selected ticket and its actual run result without storing credentials",
+    "390px mobile layout has no page-level horizontal overflow",
+    "No browser JavaScript exceptions"
+  ],
+  "errors": [],
+  "passed": true,
+  "database_hashes_before": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "database_hashes_after": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "final_run": {
+    "run_id": "be0b23c3e7ba454bb5e3d6883e3244cd",
+    "ticket_id": 103,
+    "status": "completed",
+    "read_only": true,
+    "generation": 3,
+    "created_at_utc": "2026-10-08T15:08:09.576639+00:00",
+    "result": {
+      "run_id": "be0b23c3e7ba454bb5e3d6883e3244cd",
+      "ticket_id": 103,
+      "status": "review_ready",
+      "read_only": true,
+      "report": {
+        "summary": "Offline browser fixture: boss reviewed ticket 103 using real MCP records.",
+        "facts": [
+          "Recorded size stock: 8; requested 20."
+        ],
+        "calculations": [],
+        "uncertainties": [],
+        "recommendation": "Review the prepared proposal before authorizing money movement.",
+        "draft_message": null,
+        "proposed_actions": [],
+        "needs_human_decision": true
+      },
+      "agents_worked": [
+        "boss",
+        "accounting"
+      ],
+      "contributions": [
+        {
+          "agent": "accounting",
+          "report": {
+            "summary": "Offline browser fixture: accounting reviewed ticket 103 using real MCP records.",
+            "facts": [
+              "Recorded size stock: 8; requested 20."
+            ],
+            "calculations": [],
+            "uncertainties": [],
+            "recommendation": "Review the prepared proposal before authorizing money movement.",
+            "draft_message": null,
+            "proposed_actions": [],
+            "needs_human_decision": true
+          }
+        },
+        {
+          "agent": "boss",
+          "report": {
+            "summary": "Offline browser fixture: boss reviewed ticket 103 using real MCP records.",
+            "facts": [
+              "Recorded size stock: 8; requested 20."
+            ],
+            "calculations": [],
+            "uncertainties": [],
+            "recommendation": "Review the prepared proposal before authorizing money movement.",
+            "draft_message": null,
+            "proposed_actions": [],
+            "needs_human_decision": true
+          }
+        }
+      ],
+      "payment_proposals": [
+        {
+          "action_id": "c417a666c24ddd38019404b8dd26e1c9447754c43fb568cce86a5fa4086cf32c",
+          "action": {
+            "ticket_id": 103,
+            "kind": "purchase",
+            "ref_id": 103,
+            "account": "checking",
+            "amount": 264,
+            "shop_date": "2026-08-31",
+            "balance_before": 3400,
+            "balance_after": 3136,
+            "details": {
+              "payee": "Elm City Gifts",
+              "vendor_id": 2,
+              "quantity": 12,
+              "sku": "CC-HOOD-NAVY",
+              "size": "M",
+              "unit_cost": 22,
+              "lead_days": 3
+            }
+          },
+          "ready_for_approval": true,
+          "requires_human_approval": true,
+          "blockers": [],
+          "assumptions": [
+            "Vendor-to-SKU match is not established by the database",
+            "Recorded unit cost is an estimate, not a confirmed vendor quote",
+            "This is a simulated purchase; payment does not record receipt of inventory"
+          ],
+          "executed": false
+        }
+      ],
+      "usage": {
+        "input_tokens": 1068,
+        "cache_write_tokens": 0,
+        "cache_read_tokens": 0,
+        "output_tokens": 154,
+        "input_audio_tokens": 0,
+        "cache_audio_read_tokens": 0,
+        "output_audio_tokens": 0,
+        "audio_seconds": 0,
+        "details": {},
+        "cost": null,
+        "requests": 6,
+        "tool_calls": 4
+      },
+      "error": null
+    },
+    "finished_at_utc": "2026-10-08T15:08:12.361103+00:00"
+  },
+  "fixture_database": "D:\\President Liu One Drive\\OneDrive\\Homework\\MGT 409 AI Foundation for Managers\\Homework5\\data\\hw5-p8-browser-ciuk0dlz\\fixture.db"
+}

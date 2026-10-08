@@ -1,0 +1,272 @@
+{
+  "source": "portkey_live",
+  "model": "gpt-6-luna",
+  "read_only": true,
+  "runs": [
+    {
+      "verification_task": "For this narrow read-only verification, use get_order_fulfillment_context to report the exact stock shortage, linked invoice, vendor lead time and sourcing uncertainty. Return your report directly unless a missing fact genuinely requires delegation.",
+      "result": {
+        "run_id": "ab8dfe3478af4bf6a2ddfc7d6ea5fe90",
+        "ticket_id": 101,
+        "status": "review_ready",
+        "read_only": true,
+        "report": {
+          "summary": "Ticket 101 requests 1 Classic Bulldog Tee (SKU CC-TEE-WHITE), size S. The exact stock record exists and records 0 units, so the shortfall is 1. Linked invoice 501 for $840 is open and unpaid, for a rush reprint of this SKU/size. Bulldog Print Co's recorded lead time is 5 days; from the shop date 2026-08-31, arrival would be estimated around 2026-09-05, not confirmed. Supplier fit remains uncertain: its specialty is listed as \u201capparel reprint,\u201d which does not guarantee it can supply this exact SKU/size. The open invoice may block shipment.",
+          "facts": [
+            "Stock record found for CC-TEE-WHITE, size S: quantity 0 at Aisle B.",
+            "Requested quantity: 1; recorded shortfall: 1.",
+            "Linked invoice 501: $840, due 2026-08-28, status open; description: \u201cRush reprint CC-TEE-WHITE S.\u201d",
+            "Vendor: Bulldog Print Co; recorded specialty: apparel reprint; lead time: 5 days.",
+            "Shop date: 2026-08-31; five-day arrival estimate: 2026-09-05."
+          ],
+          "calculations": [],
+          "uncertainties": [
+            "Vendor specialty is descriptive, not a guaranteed SKU-to-vendor match; exact sourcing capability is unconfirmed.",
+            "Estimated arrival date is based on recorded lead time only and is not a confirmed delivery date."
+          ],
+          "recommendation": "",
+          "draft_message": null,
+          "proposed_actions": [],
+          "needs_human_decision": false
+        },
+        "agents_worked": [
+          "inventory"
+        ],
+        "contributions": [
+          {
+            "agent": "inventory",
+            "report": {
+              "summary": "Ticket 101 requests 1 Classic Bulldog Tee (SKU CC-TEE-WHITE), size S. The exact stock record exists and records 0 units, so the shortfall is 1. Linked invoice 501 for $840 is open and unpaid, for a rush reprint of this SKU/size. Bulldog Print Co's recorded lead time is 5 days; from the shop date 2026-08-31, arrival would be estimated around 2026-09-05, not confirmed. Supplier fit remains uncertain: its specialty is listed as \u201capparel reprint,\u201d which does not guarantee it can supply this exact SKU/size. The open invoice may block shipment.",
+              "facts": [
+                "Stock record found for CC-TEE-WHITE, size S: quantity 0 at Aisle B.",
+                "Requested quantity: 1; recorded shortfall: 1.",
+                "Linked invoice 501: $840, due 2026-08-28, status open; description: \u201cRush reprint CC-TEE-WHITE S.\u201d",
+                "Vendor: Bulldog Print Co; recorded specialty: apparel reprint; lead time: 5 days.",
+                "Shop date: 2026-08-31; five-day arrival estimate: 2026-09-05."
+              ],
+              "calculations": [],
+              "uncertainties": [
+                "Vendor specialty is descriptive, not a guaranteed SKU-to-vendor match; exact sourcing capability is unconfirmed.",
+                "Estimated arrival date is based on recorded lead time only and is not a confirmed delivery date."
+              ],
+              "recommendation": "",
+              "draft_message": null,
+              "proposed_actions": [],
+              "needs_human_decision": false
+            }
+          }
+        ],
+        "payment_proposals": [],
+        "usage": {
+          "input_tokens": 2268,
+          "cache_write_tokens": 1133,
+          "cache_read_tokens": 0,
+          "output_tokens": 465,
+          "input_audio_tokens": 0,
+          "cache_audio_read_tokens": 0,
+          "output_audio_tokens": 0,
+          "audio_seconds": 0.0,
+          "details": {
+            "reasoning_tokens": 125
+          },
+          "cost": null,
+          "requests": 2,
+          "tool_calls": 1,
+          "output_reasoning_tokens": 125
+        },
+        "error": null
+      }
+    },
+    {
+      "verification_task": "For this narrow read-only verification, use get_order_fulfillment_context and return a customer-message draft explaining the recorded availability and conditional timing. Do not promise a confirmed delivery or contact the customer. No financial action is requested.",
+      "result": {
+        "run_id": "de1edef5060c472ca4580c28fc9e0cef",
+        "ticket_id": 101,
+        "status": "review_ready",
+        "read_only": true,
+        "report": {
+          "summary": "Read-only review of ticket 101: the requested Classic Bulldog Tee (CC-TEE-WHITE), size S, is recorded at zero on hand, leaving a shortfall of one. The linked rush reprint invoice is open and past due; the vendor's recorded lead time is five days. No delivery date is confirmed.",
+          "facts": [
+            "Shop date: 2026-08-31.",
+            "Stock record: Classic Bulldog Tee, CC-TEE-WHITE, size S, quantity 0; requested quantity 1.",
+            "Linked invoice 501 for the rush reprint is open and was due 2026-08-28.",
+            "Vendor lead time recorded as five days."
+          ],
+          "calculations": [],
+          "uncertainties": [
+            "The vendor's five-day lead time is not a confirmed delivery date; timing is conditional on resolving the open invoice and vendor processing.",
+            "No stock arrival or shipment confirmation is recorded."
+          ],
+          "recommendation": "Keep ticket open and provide only a conditional update; do not promise arrival or delivery timing.",
+          "draft_message": "Hi Tauhid,\n\nThanks for your request. Our records show that the Classic Bulldog Tee in size S is currently out of stock. A rush reprint is listed with our vendor, whose recorded lead time is five days, but the related invoice is still open and past due. We therefore can\u2019t confirm when the reprint will ship or arrive. We\u2019ll need to verify the vendor timing once the invoice matter is addressed.\n\nWe\u2019re sorry we can\u2019t provide a firm date yet.",
+          "proposed_actions": [],
+          "needs_human_decision": false
+        },
+        "agents_worked": [
+          "customer_service"
+        ],
+        "contributions": [
+          {
+            "agent": "customer_service",
+            "report": {
+              "summary": "Read-only review of ticket 101: the requested Classic Bulldog Tee (CC-TEE-WHITE), size S, is recorded at zero on hand, leaving a shortfall of one. The linked rush reprint invoice is open and past due; the vendor's recorded lead time is five days. No delivery date is confirmed.",
+              "facts": [
+                "Shop date: 2026-08-31.",
+                "Stock record: Classic Bulldog Tee, CC-TEE-WHITE, size S, quantity 0; requested quantity 1.",
+                "Linked invoice 501 for the rush reprint is open and was due 2026-08-28.",
+                "Vendor lead time recorded as five days."
+              ],
+              "calculations": [],
+              "uncertainties": [
+                "The vendor's five-day lead time is not a confirmed delivery date; timing is conditional on resolving the open invoice and vendor processing.",
+                "No stock arrival or shipment confirmation is recorded."
+              ],
+              "recommendation": "Keep ticket open and provide only a conditional update; do not promise arrival or delivery timing.",
+              "draft_message": "Hi Tauhid,\n\nThanks for your request. Our records show that the Classic Bulldog Tee in size S is currently out of stock. A rush reprint is listed with our vendor, whose recorded lead time is five days, but the related invoice is still open and past due. We therefore can\u2019t confirm when the reprint will ship or arrive. We\u2019ll need to verify the vendor timing once the invoice matter is addressed.\n\nWe\u2019re sorry we can\u2019t provide a firm date yet.",
+              "proposed_actions": [],
+              "needs_human_decision": false
+            }
+          }
+        ],
+        "payment_proposals": [],
+        "usage": {
+          "input_tokens": 2262,
+          "cache_write_tokens": 1130,
+          "cache_read_tokens": 0,
+          "output_tokens": 536,
+          "input_audio_tokens": 0,
+          "cache_audio_read_tokens": 0,
+          "output_audio_tokens": 0,
+          "audio_seconds": 0.0,
+          "details": {
+            "reasoning_tokens": 196
+          },
+          "cost": null,
+          "requests": 2,
+          "tool_calls": 1,
+          "output_reasoning_tokens": 196
+        },
+        "error": null
+      }
+    },
+    {
+      "verification_task": "For this narrow read-only verification, use get_rent_context and prepare_payment to prepare the linked rent proposal. Preparation is read-only and is permitted in this review. Report the amount, balance before and hypothetical balance after, and required human approval. Return your report without executing a payment.",
+      "result": {
+        "run_id": "8446047756394116bfa34138819bba96",
+        "ticket_id": 102,
+        "status": "review_ready",
+        "read_only": true,
+        "report": {
+          "summary": "Rent proposal prepared for ticket 102; no payment was executed. Amount: $2,400.00 to Elm City Properties for the Chapel Street shop lease, due 2026-09-02. Checking balance before: $3,400.00; hypothetical balance after: $1,000.00. The proposal requires explicit human approval before execution.",
+          "facts": [
+            "Shop date: 2026-08-31; rent is due in 2 days and is not yet overdue.",
+            "No rent payment is recorded in the context.",
+            "Proposal is ready for approval and has no listed blockers; executed=false."
+          ],
+          "calculations": [
+            "$3,400.00 checking balance \u2212 $2,400.00 rent proposal = $1,000.00 hypothetical balance."
+          ],
+          "uncertainties": [],
+          "recommendation": "Obtain explicit human approval through the approval workflow before any payment. This read-only review did not move funds.",
+          "draft_message": null,
+          "proposed_actions": [
+            {
+              "action_id": "d6fab4f49afd6f111c161e4de27991b82bb24bed9d49dd980458fdbba2fd2112",
+              "ticket_id": 102,
+              "kind": "rent",
+              "payee": "Elm City Properties",
+              "reference": "Lease 1",
+              "account": "checking",
+              "amount": 2400.0,
+              "balance_before": 3400.0,
+              "hypothetical_balance_after": 1000.0,
+              "requires_human_approval": true,
+              "executed": false
+            }
+          ],
+          "needs_human_decision": true
+        },
+        "agents_worked": [
+          "accounting"
+        ],
+        "contributions": [
+          {
+            "agent": "accounting",
+            "report": {
+              "summary": "Rent proposal prepared for ticket 102; no payment was executed. Amount: $2,400.00 to Elm City Properties for the Chapel Street shop lease, due 2026-09-02. Checking balance before: $3,400.00; hypothetical balance after: $1,000.00. The proposal requires explicit human approval before execution.",
+              "facts": [
+                "Shop date: 2026-08-31; rent is due in 2 days and is not yet overdue.",
+                "No rent payment is recorded in the context.",
+                "Proposal is ready for approval and has no listed blockers; executed=false."
+              ],
+              "calculations": [
+                "$3,400.00 checking balance \u2212 $2,400.00 rent proposal = $1,000.00 hypothetical balance."
+              ],
+              "uncertainties": [],
+              "recommendation": "Obtain explicit human approval through the approval workflow before any payment. This read-only review did not move funds.",
+              "draft_message": null,
+              "proposed_actions": [
+                {
+                  "action_id": "d6fab4f49afd6f111c161e4de27991b82bb24bed9d49dd980458fdbba2fd2112",
+                  "ticket_id": 102,
+                  "kind": "rent",
+                  "payee": "Elm City Properties",
+                  "reference": "Lease 1",
+                  "account": "checking",
+                  "amount": 2400.0,
+                  "balance_before": 3400.0,
+                  "hypothetical_balance_after": 1000.0,
+                  "requires_human_approval": true,
+                  "executed": false
+                }
+              ],
+              "needs_human_decision": true
+            }
+          }
+        ],
+        "payment_proposals": [
+          {
+            "action_id": "d6fab4f49afd6f111c161e4de27991b82bb24bed9d49dd980458fdbba2fd2112",
+            "action": {
+              "ticket_id": 102,
+              "kind": "rent",
+              "ref_id": 1,
+              "account": "checking",
+              "amount": 2400.0,
+              "shop_date": "2026-08-31",
+              "balance_before": 3400.0,
+              "balance_after": 1000.0,
+              "details": {
+                "payee": "Elm City Properties",
+                "due_date": "2026-09-02"
+              }
+            },
+            "ready_for_approval": true,
+            "requires_human_approval": true,
+            "blockers": [],
+            "assumptions": [],
+            "executed": false
+          }
+        ],
+        "usage": {
+          "input_tokens": 4137,
+          "cache_write_tokens": 1484,
+          "cache_read_tokens": 1288,
+          "output_tokens": 530,
+          "input_audio_tokens": 0,
+          "cache_audio_read_tokens": 0,
+          "output_audio_tokens": 0,
+          "audio_seconds": 0.0,
+          "details": {
+            "reasoning_tokens": 159
+          },
+          "cost": null,
+          "requests": 3,
+          "tool_calls": 2,
+          "output_reasoning_tokens": 159
+        },
+        "error": null
+      }
+    }
+  ]
+}

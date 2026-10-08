@@ -1,0 +1,20 @@
+{
+  "recorded_at_utc": "2026-10-06T19:07:40.308Z",
+  "browser": "Chromium",
+  "opened_as": "Local file URL (no web server)",
+  "checks": [
+    "Ticket 101: selected tab and visible panel agree",
+    "Ticket 102: selected tab and visible panel agree",
+    "Ticket 103: selected tab and visible panel agree",
+    "Cash: selected tab and visible panel agree",
+    "Reflection: selected tab and visible panel agree",
+    "Three Actual content areas remain empty; Expected handoffs exist",
+    "Keyboard End and wrapping ArrowRight navigation work",
+    "Selected tab is restored from its URL hash after reload",
+    "390px mobile layout has no page-level horizontal overflow",
+    "All five tabs also switch correctly at 390px width",
+    "No browser JavaScript or console errors"
+  ],
+  "errors": [],
+  "passed": true
+}

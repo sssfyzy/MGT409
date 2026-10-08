@@ -1,0 +1,141 @@
+{
+  "recorded_at_utc": "2026-10-08T15:10:19.404767+00:00",
+  "source": "Disposable browser-test database; not the homework working database",
+  "state": {
+    "cash_accounts": [
+      {
+        "name": "checking",
+        "balance": 3136.0,
+        "date": "2026-08-31"
+      }
+    ],
+    "payments": [
+      {
+        "id": 1,
+        "kind": "purchase",
+        "ref_id": 103,
+        "amount": 264.0,
+        "account": "checking",
+        "paid_at": "2026-10-08T15:08:13.177682+00:00",
+        "approved_by": "Offline browser fixture operator"
+      }
+    ],
+    "inventory": [
+      {
+        "sku": "CC-HOOD-NAVY",
+        "name": "Basic Hoodie Big Yale",
+        "size": "S",
+        "qty": 4,
+        "location": "Aisle A"
+      },
+      {
+        "sku": "CC-HOOD-NAVY",
+        "name": "Basic Hoodie Big Yale",
+        "size": "M",
+        "qty": 8,
+        "location": "Aisle A"
+      },
+      {
+        "sku": "CC-HOOD-NAVY",
+        "name": "Basic Hoodie Big Yale",
+        "size": "L",
+        "qty": 14,
+        "location": "Aisle A"
+      },
+      {
+        "sku": "CC-HOOD-NAVY",
+        "name": "Basic Hoodie Big Yale",
+        "size": "XL",
+        "qty": 6,
+        "location": "Aisle A"
+      },
+      {
+        "sku": "CC-TEE-WHITE",
+        "name": "Classic Bulldog Tee",
+        "size": "S",
+        "qty": 0,
+        "location": "Aisle B"
+      },
+      {
+        "sku": "CC-TEE-WHITE",
+        "name": "Classic Bulldog Tee",
+        "size": "M",
+        "qty": 5,
+        "location": "Aisle B"
+      },
+      {
+        "sku": "CC-TEE-WHITE",
+        "name": "Classic Bulldog Tee",
+        "size": "L",
+        "qty": 3,
+        "location": "Aisle B"
+      },
+      {
+        "sku": "CC-TEE-WHITE",
+        "name": "Classic Bulldog Tee",
+        "size": "XL",
+        "qty": 2,
+        "location": "Aisle B"
+      },
+      {
+        "sku": "CC-HAT-BLUE",
+        "name": "Yale Cap",
+        "size": "OS",
+        "qty": 40,
+        "location": "Aisle C"
+      },
+      {
+        "sku": "CC-MUG-CREST",
+        "name": "Crest Mug",
+        "size": "OS",
+        "qty": 0,
+        "location": "Aisle D"
+      }
+    ],
+    "tickets": [
+      {
+        "id": 101,
+        "type": "customer_order",
+        "requester": "Tauhid Zaman",
+        "subject": "Bulldog tee",
+        "sku": "CC-TEE-WHITE",
+        "size": "S",
+        "qty": 1,
+        "lease_id": null,
+        "invoice_id": 501,
+        "status": "open",
+        "notes": "Needs a tee in size S.",
+        "created_at": "2026-08-31T09:15:00-04:00"
+      },
+      {
+        "id": 102,
+        "type": "rent_notice",
+        "requester": "Elm City Properties",
+        "subject": "Rent due",
+        "sku": null,
+        "size": null,
+        "qty": null,
+        "lease_id": 1,
+        "invoice_id": null,
+        "status": "open",
+        "notes": "Email: shop rent due in 2 days.",
+        "created_at": "2026-08-31T11:05:00-04:00"
+      },
+      {
+        "id": 103,
+        "type": "price_override",
+        "requester": "Yale AI Club",
+        "subject": "Bulk hoodie discount",
+        "sku": "CC-HOOD-NAVY",
+        "size": "M",
+        "qty": 20,
+        "lease_id": null,
+        "invoice_id": null,
+        "status": "open",
+        "notes": "Student org wants 20 hoodies, size M, asking for a bulk discount.",
+        "created_at": "2026-08-31T16:55:00-04:00"
+      }
+    ]
+  },
+  "purchase_did_not_add_inventory": true
+}

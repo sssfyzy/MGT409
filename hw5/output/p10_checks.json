@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-08T16:28:18.350Z",
+  "source": "Real Chromium local-file test",
+  "checks": [
+    "Student’s average/efficiency-first assessment retained in English",
+    "All three tickets evaluated with Actual versus Expected details",
+    "Single-agent rent and multi-agent complex-task judgment retained",
+    "Three solvable and three unsupported scenarios with concrete tools/roles",
+    "Authorization, deferred outcomes and cash limits described honestly",
+    "Local-file Reflection tab works on desktop",
+    "390px mobile view has no page-wide horizontal overflow",
+    "P9 ticket evidence and cash reconciliation remain accessible",
+    "No browser page errors"
+  ],
+  "browser_errors": []
+}

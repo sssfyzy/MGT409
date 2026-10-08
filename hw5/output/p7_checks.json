@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-10-08T16:10:13.798507+00:00",
+  "test_kind": "FastAPI TestClient + real stdio MCP + offline model doubles + disposable SQLite",
+  "live_model_calls": 0,
+  "tests_run": 17,
+  "successful_tests": [
+    "tests.test_p7.RouteTests.test_agent_cannot_access_reset_or_payment_execution",
+    "tests.test_p7.RouteTests.test_auth_csrf_origin_host_and_identity_controls",
+    "tests.test_p7.RouteTests.test_bad_inputs_missing_items_and_logout",
+    "tests.test_p7.RouteTests.test_busy_run_blocks_other_run_approval_and_reset",
+    "tests.test_p7.RouteTests.test_human_payment_and_duplicate_rejection",
+    "tests.test_p7.RouteTests.test_purchase_requires_explicit_assumption_confirmation",
+    "tests.test_p7.RouteTests.test_reads_and_background_run_events",
+    "tests.test_p7.RouteTests.test_reset_restores_copy_preserves_audit_and_invalidates_authority",
+    "tests.test_p7.RouteTests.test_stale_cash_proposal_and_insufficient_cash",
+    "tests.test_p5.MCPFinancialTests.test_all_tools_and_read_only_preparation",
+    "tests.test_p5.MCPFinancialTests.test_database_failure_rolls_back_payment_and_cash",
+    "tests.test_p5.MCPFinancialTests.test_invalid_tampered_expired_approval_refused",
+    "tests.test_p5.MCPFinancialTests.test_invoice_rent_updates_and_duplicate_refusal",
+    "tests.test_p5.MCPFinancialTests.test_outcomes_require_capability_and_factual_preconditions",
+    "tests.test_p5.MCPFinancialTests.test_purchase_assumptions_and_no_phantom_inventory",
+    "tests.test_p5.AuditAndPermissionTests.test_agent_payment_execution_is_denied_for_all_roles",
+    "tests.test_p5.AuditAndPermissionTests.test_append_preserves_events_and_redacts_secrets"
+  ],
+  "failures": [],
+  "errors": [],
+  "database_hashes_before": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "4cc295db28fdec17c122106e652d5eb01fe6f23b8039250be5c28a02d03c70f7"
+  },
+  "database_hashes_after": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "4cc295db28fdec17c122106e652d5eb01fe6f23b8039250be5c28a02d03c70f7"
+  },
+  "passed": true
+}

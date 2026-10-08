@@ -1,0 +1,164 @@
+{
+  "recorded_at_utc": "2026-10-08T14:56:43.524Z",
+  "source": "Real Chromium + production API + authorized read-only gpt-6-luna via Portkey",
+  "checks": [
+    "All three database tickets load and can be selected",
+    "A real asynchronous run appears live in the browser",
+    "Actual Boss-to-Facilities and Facilities-to-Accounting handoffs are rendered",
+    "Completed review does not falsely resolve a ticket or change cash",
+    "Actual per-agent contribution summaries are available",
+    "Page reload restores selected ticket and its actual run result without storing credentials",
+    "390px mobile layout has no page-level horizontal overflow",
+    "No browser JavaScript exceptions"
+  ],
+  "errors": [],
+  "passed": true,
+  "database_hashes_before": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "database_hashes_after": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "final_run": {
+    "run_id": "a6cc02ad8910483891c2dffbaaf73760",
+    "ticket_id": 102,
+    "status": "completed",
+    "read_only": true,
+    "generation": 0,
+    "created_at_utc": "2026-10-08T14:56:35.798675+00:00",
+    "result": {
+      "run_id": "a6cc02ad8910483891c2dffbaaf73760",
+      "ticket_id": 102,
+      "status": "review_ready",
+      "read_only": true,
+      "report": {
+        "summary": "Ticket 102 is an open rent notice. The lease shows $2,400 rent due to Elm City Properties on September 2, 2026, two days after the August 31 shop date. Facilities’ review supports treating this as an imminent obligation and seeking an authorized human’s decision on payment. This was a read-only review: no payment was made, no communication was sent, and the ticket remains open.",
+        "facts": [
+          "Lease 1 is for the Chapel Street shop; landlord is Elm City Properties.",
+          "Monthly rent is $2,400; next due date is 2026-09-02.",
+          "Checking balance recorded on 2026-08-31 is $3,400; no rent payments are recorded.",
+          "Facilities recommends obtaining human payment approval and confirming any processed payment before representing it as paid."
+        ],
+        "calculations": [
+          "Recorded checking balance exceeds rent by $1,000, assuming no intervening cash outflows."
+        ],
+        "uncertainties": [
+          "No lease details were provided about grace periods, late fees, or other payment terms.",
+          "The recorded checking balance is a snapshot and could change before the due date."
+        ],
+        "recommendation": "Ask a human with payment authority to decide whether and when to pay the $2,400 rent. Do not initiate or record payment under this read-only review. If payment is separately approved and processed, verify the recorded result before updating the landlord or resolving the ticket.",
+        "draft_message": "Draft, if useful after a human decides how to proceed: “Hello, we’ve received your rent notice for the Chapel Street shop. The lease records $2,400 due September 2, 2026. We are reviewing the payment and will follow up once confirmed.”",
+        "proposed_actions": [
+          {
+            "action": "Obtain human decision on whether and when to pay $2,400 rent",
+            "status": "proposed; no payment executed"
+          }
+        ],
+        "needs_human_decision": true
+      },
+      "agents_worked": [
+        "boss",
+        "facilities",
+        "accounting"
+      ],
+      "contributions": [
+        {
+          "agent": "accounting",
+          "report": {
+            "summary": "Rent payment readiness for ticket 102: checking currently shows $3,400 against monthly rent of $2,400, so funds appear sufficient by $1,000 at the current snapshot. Rent is due September 2, 2026 (in 2 days). No rent payments are recorded, and no payment was prepared or made.",
+            "facts": [
+              "Shop date: August 31, 2026.",
+              "Lease: Chapel Street shop; landlord Elm City Properties; monthly rent $2,400; next due September 2, 2026.",
+              "Checking balance: $3,400 as of August 31, 2026.",
+              "Recorded payments: none."
+            ],
+            "calculations": [
+              "$3,400 checking − $2,400 rent = $1,000 remaining, assuming no intervening cash outflows."
+            ],
+            "uncertainties": [
+              "This is a point-in-time balance; intervening cash outflows could reduce funds available by the due date."
+            ],
+            "recommendation": "Funds appear sufficient based on current shop context. No payment was made. Any payment still requires explicit human approval through the approval workflow; afterward, confirm the completed transaction in MCP before reporting that money moved.",
+            "draft_message": null,
+            "proposed_actions": [],
+            "needs_human_decision": true
+          }
+        },
+        {
+          "agent": "facilities",
+          "report": {
+            "summary": "Ticket 102 concerns rent for the Chapel Street shop, owed to Elm City Properties. The recorded lease sets monthly rent at $2,400, due September 2, 2026—2 days after the shop date of August 31, 2026. The ticket remains open; no payment is recorded and none was made.",
+            "facts": [
+              "Ticket 102 is an open rent notice from Elm City Properties.",
+              "Lease 1 identifies the space as Chapel Street shop and monthly rent as $2,400.",
+              "Next due date is 2026-09-02; 2 days remain as of shop date 2026-08-31.",
+              "Checking balance is $3,400 as of 2026-08-31; recorded rent payments: none."
+            ],
+            "calculations": [
+              "Current checking exceeds the rent amount by $1,000, assuming no intervening cash outflows."
+            ],
+            "uncertainties": [
+              "Lease context does not establish late fees, a grace period, or other payment terms; do not assume any apply.",
+              "Cash sufficiency is based on the recorded balance snapshot and may change before the due date."
+            ],
+            "recommendation": "Treat this as an imminent $2,400 lease obligation due September 2. Current checking appears sufficient, subject to intervening outflows. Ask a human with payment authority to approve whether and when to pay; do not represent payment as made. If approved and processed, confirm the recorded result in MCP. Keep any landlord response as a draft and do not resolve the ticket until appropriate confirmation.",
+            "draft_message": null,
+            "proposed_actions": [],
+            "needs_human_decision": true
+          }
+        },
+        {
+          "agent": "boss",
+          "report": {
+            "summary": "Ticket 102 is an open rent notice. The lease shows $2,400 rent due to Elm City Properties on September 2, 2026, two days after the August 31 shop date. Facilities’ review supports treating this as an imminent obligation and seeking an authorized human’s decision on payment. This was a read-only review: no payment was made, no communication was sent, and the ticket remains open.",
+            "facts": [
+              "Lease 1 is for the Chapel Street shop; landlord is Elm City Properties.",
+              "Monthly rent is $2,400; next due date is 2026-09-02.",
+              "Checking balance recorded on 2026-08-31 is $3,400; no rent payments are recorded.",
+              "Facilities recommends obtaining human payment approval and confirming any processed payment before representing it as paid."
+            ],
+            "calculations": [
+              "Recorded checking balance exceeds rent by $1,000, assuming no intervening cash outflows."
+            ],
+            "uncertainties": [
+              "No lease details were provided about grace periods, late fees, or other payment terms.",
+              "The recorded checking balance is a snapshot and could change before the due date."
+            ],
+            "recommendation": "Ask a human with payment authority to decide whether and when to pay the $2,400 rent. Do not initiate or record payment under this read-only review. If payment is separately approved and processed, verify the recorded result before updating the landlord or resolving the ticket.",
+            "draft_message": "Draft, if useful after a human decides how to proceed: “Hello, we’ve received your rent notice for the Chapel Street shop. The lease records $2,400 due September 2, 2026. We are reviewing the payment and will follow up once confirmed.”",
+            "proposed_actions": [
+              {
+                "action": "Obtain human decision on whether and when to pay $2,400 rent",
+                "status": "proposed; no payment executed"
+              }
+            ],
+            "needs_human_decision": true
+          }
+        }
+      ],
+      "payment_proposals": [],
+      "usage": {
+        "input_tokens": 10765,
+        "cache_write_tokens": 4020,
+        "cache_read_tokens": 2195,
+        "output_tokens": 1537,
+        "input_audio_tokens": 0,
+        "cache_audio_read_tokens": 0,
+        "output_audio_tokens": 0,
+        "audio_seconds": 0,
+        "details": {
+          "reasoning_tokens": 346
+        },
+        "cost": null,
+        "requests": 9,
+        "tool_calls": 6,
+        "output_reasoning_tokens": 346
+      },
+      "error": null
+    },
+    "finished_at_utc": "2026-10-08T14:56:42.316739+00:00"
+  },
+  "fixture_database": null
+}

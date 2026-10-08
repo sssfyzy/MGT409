@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-10-08T15:02:07.563Z",
+  "source": "Real Chromium + isolated fixture API",
+  "checks": [
+    "Disconnected operator cannot start a run",
+    "Invalid operator code is rejected and displayed in the dialog",
+    "Valid operator connects; access code is absent from browser storage",
+    "Connection error is visible and Retry / refresh recovers the desk",
+    "Escape closes the dialog; logout removes operator authority"
+  ],
+  "errors": [],
+  "passed": true,
+  "financial_mutations": 0,
+  "model_calls": 0
+}

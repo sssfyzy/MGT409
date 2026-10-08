@@ -1,0 +1,34 @@
+{
+  "recorded_at_utc": "2026-10-06T18:58:21.433918+00:00",
+  "test_kind": "Offline model doubles with real stdio MCP and disposable SQLite copies",
+  "live_model_calls": 0,
+  "tests_run": 14,
+  "successful_tests": [
+    "tests.test_p5.AgentTests.test_cycles_depth_limits_and_shared_request_budget",
+    "tests.test_p5.AgentTests.test_every_directed_role_pair_and_actual_mcp_callback",
+    "tests.test_p5.AgentTests.test_payment_proposal_survives_in_public_result",
+    "tests.test_p5.AgentTests.test_shared_mcp_call_limit_stops_before_execution",
+    "tests.test_p5.AgentTests.test_timeout_and_missing_ticket_are_audited",
+    "tests.test_p5.AgentTests.test_trusted_approval_matches_pending_and_audits_receipt",
+    "tests.test_p5.AuditAndPermissionTests.test_agent_payment_execution_is_denied_for_all_roles",
+    "tests.test_p5.AuditAndPermissionTests.test_append_preserves_events_and_redacts_secrets",
+    "tests.test_p5.MCPFinancialTests.test_all_nine_tools_and_read_only_preparation",
+    "tests.test_p5.MCPFinancialTests.test_database_failure_rolls_back_payment_and_cash",
+    "tests.test_p5.MCPFinancialTests.test_invalid_tampered_expired_approval_refused",
+    "tests.test_p5.MCPFinancialTests.test_invoice_rent_updates_and_duplicate_refusal",
+    "tests.test_p5.MCPFinancialTests.test_outcomes_require_capability_and_factual_preconditions",
+    "tests.test_p5.MCPFinancialTests.test_purchase_assumptions_and_no_phantom_inventory"
+  ],
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "database_hashes_before": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "database_hashes_after": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "passed": true
+}

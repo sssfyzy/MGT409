@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-08T15:20:09.528Z",
+  "cash": {
+    "shop_date": "2026-08-31",
+    "account": {
+      "name": "checking",
+      "balance": 3400,
+      "date": "2026-08-31"
+    },
+    "generation": 1
+  },
+  "reset_via": "real dashboard; authorized by P9 task approval"
+}

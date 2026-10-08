@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-10-08T16:15:51.477Z",
+  "checks": [
+    "All three status rows are resolved",
+    "Final cash is $160",
+    "Actual recorded payment amounts reconcile from $3,400",
+    "Original database hash unchanged",
+    "Three real resolved-board screenshots captured",
+    "Expected sections preserved verbatim",
+    "No browser page errors"
+  ],
+  "browser_errors": []
+}

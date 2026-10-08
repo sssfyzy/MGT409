@@ -1,0 +1,69 @@
+{
+  "recorded_at_utc": "2026-10-08T17:29:24.413503+00:00",
+  "source": "Fresh environment and actual HTTP/MCP in verified submission checkout",
+  "checks": [
+    "Fresh virtual environment installed all six pinned requirements",
+    "pip check reports no broken requirements",
+    "Portable .mcp.json launches ten tools with activated-environment PATH and hw5 cwd",
+    "Fresh MCP reads preserve completed state: 160 cash, two payments, three resolved tickets",
+    "Fresh backend starts from backend folder and HTTP reads succeed",
+    "Local operator session works; no pending payments",
+    "npm ci and production build succeeded in the submission copy",
+    "Fresh Vite startup serves index and module on test port 5174",
+    "All 11 English prompt sections contain actual records",
+    "Completed Reflection and local HTML screenshot/result links exist",
+    "Both database hashes unchanged during setup verification"
+  ],
+  "python_version": "3.12.14",
+  "pinned_versions": {
+    "fastmcp": "4.0.11",
+    "pydantic-ai-slim": "2.54.0",
+    "python-dotenv": "1.2.4",
+    "fastapi": "0.142.2",
+    "uvicorn": "0.54.0",
+    "httpx": "0.28.1"
+  },
+  "pip_check": "No broken requirements found.",
+  "mcp_tools": [
+    "execute_approved_payment",
+    "get_bulk_discount_context",
+    "get_order_fulfillment_context",
+    "get_rent_context",
+    "get_shop_state",
+    "get_vendor_context",
+    "list_tickets",
+    "prepare_payment",
+    "record_ticket_outcome",
+    "reset_working_database"
+  ],
+  "database_hashes_before": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "7226e858af9ca3a0ec3469160f47e9d89ea624f2bdc767bedb8b96a4492df011"
+  },
+  "database_hashes_after": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "7226e858af9ca3a0ec3469160f47e9d89ea624f2bdc767bedb8b96a4492df011"
+  },
+  "backend_health": {
+    "status": "ok",
+    "model": "gpt-6-luna",
+    "provider": "portkey",
+    "generation": 0
+  },
+  "cash": {
+    "shop_date": "2026-08-31",
+    "account": {
+      "name": "checking",
+      "balance": 160.0,
+      "date": "2026-08-31"
+    },
+    "generation": 0
+  },
+  "model_calls": 0,
+  "financial_writes": 0,
+  "test_ports": {
+    "backend": 8002,
+    "frontend": 5174
+  },
+  "port_note": "Alternate free ports were used for startup verification to avoid disturbing the user's existing 8000/5173 board; README production ports and CORS settings are unchanged. This smoke test uses real HTTP reads, not a full cross-origin UI chat run."
+}

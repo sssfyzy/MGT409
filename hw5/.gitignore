@@ -1,0 +1,18 @@
+# HW5 requires the original and completed working databases, and nothing else in data/.
+data/*
+!data/campus_customs.db
+!data/campus_customs_new.db
+data.zip
+.venv/
+__pycache__/
+*.py[cod]
+
+# Machine-local Codex config; .mcp.json records the launch paths for submission.
+.codex/
+.env
+.env.*
+!.env.example
+*.lock
+node_modules/
+frontend/dist/
+debug.log

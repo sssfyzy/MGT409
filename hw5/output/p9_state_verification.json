@@ -1,0 +1,166 @@
+{
+  "recorded_at_utc": "2026-10-08T16:16:00.378783+00:00",
+  "source": "Actual working database via fresh read-only MCP client; independent SQLite mode=ro cash/integrity check",
+  "shop_state": {
+    "shop_date": "2026-08-31",
+    "cash_accounts": [
+      {
+        "name": "checking",
+        "balance": 160.0,
+        "date": "2026-08-31"
+      }
+    ],
+    "payments": [
+      {
+        "id": 1,
+        "kind": "invoice",
+        "ref_id": 501,
+        "amount": 840.0,
+        "account": "checking",
+        "paid_at": "2026-10-08T15:52:22.549127+00:00",
+        "approved_by": "Student-authorized P9 operator"
+      },
+      {
+        "id": 2,
+        "kind": "rent",
+        "ref_id": 1,
+        "amount": 2400.0,
+        "account": "checking",
+        "paid_at": "2026-10-08T15:55:02.426281+00:00",
+        "approved_by": "Student-authorized P9 operator"
+      }
+    ]
+  },
+  "queue": {
+    "shop_date": "2026-08-31",
+    "tickets": [
+      {
+        "id": 101,
+        "type": "customer_order",
+        "requester": "Tauhid Zaman",
+        "subject": "Bulldog tee",
+        "sku": "CC-TEE-WHITE",
+        "size": "S",
+        "qty": 1,
+        "lease_id": null,
+        "invoice_id": 501,
+        "status": "resolved",
+        "notes": "Needs a tee in size S.\nOutcome (deferred): Deferred: requested CC-TEE-WHITE size S is out of stock (0 available; shortfall 1). Sourcing/availability is unconfirmed; no purchase or shipment has been made. Customer update drafted but not sent.",
+        "created_at": "2026-08-31T09:15:00-04:00"
+      },
+      {
+        "id": 102,
+        "type": "rent_notice",
+        "requester": "Elm City Properties",
+        "subject": "Rent due",
+        "sku": null,
+        "size": null,
+        "qty": null,
+        "lease_id": 1,
+        "invoice_id": null,
+        "status": "resolved",
+        "notes": "Email: shop rent due in 2 days.\nOutcome (paid): Rent obligation for lease 1 is recorded paid in payment 2 ($2,400 from checking); ticket closed based on current payment record. Payment's actual recorded timestamp is 2026-10-08, later than scenario date 2026-08-31, so no claim is made that it was paid on time relative to the 2026-09-02 due date.",
+        "created_at": "2026-08-31T11:05:00-04:00"
+      },
+      {
+        "id": 103,
+        "type": "price_override",
+        "requester": "Yale AI Club",
+        "subject": "Bulk hoodie discount",
+        "sku": "CC-HOOD-NAVY",
+        "size": "M",
+        "qty": 20,
+        "lease_id": null,
+        "invoice_id": null,
+        "status": "resolved",
+        "notes": "Student org wants 20 hoodies, size M, asking for a bulk discount.\nOutcome (deferred): Deferred: cannot confirm the requested 20 size-M hoodies because only 8 are in stock; 12 are short. No discount has been approved, and no alternative quantity/order has been agreed. Replenishment was not proposed because the estimated $264 product cost for 12 units exceeds the $160 checking balance by $104; any future purchase would require human approval and confirmed vendor terms.",
+        "created_at": "2026-08-31T16:55:00-04:00"
+      }
+    ]
+  },
+  "tee_context": {
+    "shop_date": "2026-08-31",
+    "ticket": {
+      "id": 101,
+      "type": "customer_order",
+      "requester": "Tauhid Zaman",
+      "subject": "Bulldog tee",
+      "sku": "CC-TEE-WHITE",
+      "size": "S",
+      "qty": 1,
+      "lease_id": null,
+      "invoice_id": 501,
+      "status": "resolved",
+      "notes": "Needs a tee in size S.\nOutcome (deferred): Deferred: requested CC-TEE-WHITE size S is out of stock (0 available; shortfall 1). Sourcing/availability is unconfirmed; no purchase or shipment has been made. Customer update drafted but not sent.",
+      "created_at": "2026-08-31T09:15:00-04:00"
+    },
+    "stock": {
+      "found": true,
+      "sku": "CC-TEE-WHITE",
+      "name": "Classic Bulldog Tee",
+      "size": "S",
+      "qty": 0,
+      "location": "Aisle B"
+    },
+    "stock_shortfall": 1,
+    "linked_invoice": {
+      "found": true,
+      "id": 501,
+      "vendor_id": 1,
+      "amount": 840.0,
+      "due_date": "2026-08-28",
+      "status": "paid",
+      "description": "Rush reprint CC-TEE-WHITE S",
+      "vendor_name": "Bulldog Print Co",
+      "vendor_specialty": "apparel reprint",
+      "vendor_lead_days": 5
+    }
+  },
+  "hoodie_context": {
+    "shop_date": "2026-08-31",
+    "ticket": {
+      "id": 103,
+      "type": "price_override",
+      "requester": "Yale AI Club",
+      "subject": "Bulk hoodie discount",
+      "sku": "CC-HOOD-NAVY",
+      "size": "M",
+      "qty": 20,
+      "lease_id": null,
+      "invoice_id": null,
+      "status": "resolved",
+      "notes": "Student org wants 20 hoodies, size M, asking for a bulk discount.\nOutcome (deferred): Deferred: cannot confirm the requested 20 size-M hoodies because only 8 are in stock; 12 are short. No discount has been approved, and no alternative quantity/order has been agreed. Replenishment was not proposed because the estimated $264 product cost for 12 units exceeds the $160 checking balance by $104; any future purchase would require human approval and confirmed vendor terms.",
+      "created_at": "2026-08-31T16:55:00-04:00"
+    },
+    "stock": {
+      "found": true,
+      "sku": "CC-HOOD-NAVY",
+      "name": "Basic Hoodie Big Yale",
+      "size": "M",
+      "qty": 8,
+      "location": "Aisle A"
+    },
+    "stock_shortfall": 12,
+    "pricing": {
+      "found": true,
+      "sku": "CC-HOOD-NAVY",
+      "unit_cost": 22.0,
+      "list_price": 58.0,
+      "unit_gross_margin_at_list_price": 36.0
+    }
+  },
+  "cash_sqlite": 160.0,
+  "cash_mcp": 160.0,
+  "integrity": "ok",
+  "inventory_unchanged": true,
+  "original_database_sha256": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+  "checks": [
+    "Original database preserved",
+    "MCP and SQLite checking match at 160",
+    "Exactly one invoice and one rent payment, no duplicate or purchase",
+    "3400 - 840 - 2400 = 160",
+    "All three ticket status rows resolved",
+    "Inventory unchanged",
+    "SQLite integrity ok"
+  ]
+}

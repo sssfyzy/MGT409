@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-08T16:18:59.483Z",
+  "checks": [
+    "All three standalone ticket tabs display real Actual evidence and preserved Expected plans",
+    "Cash tab has three itemized rows and exact reconciliation",
+    "Reflection left for student P10 input",
+    "Resolved board opens as a local file with all three real images",
+    "No browser script errors"
+  ],
+  "browser_errors": []
+}

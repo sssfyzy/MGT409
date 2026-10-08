@@ -1,0 +1,89 @@
+{
+  "recorded_at_utc": "2026-10-06T19:25:32.686945+00:00",
+  "source": "Real localhost HTTP server started with main:app from backend folder",
+  "live_model_calls": 0,
+  "health": {
+    "status": "ok",
+    "model": "gpt-6-luna",
+    "provider": "portkey",
+    "generation": 0
+  },
+  "tickets_before": {
+    "shop_date": "2026-08-31",
+    "tickets": [
+      {
+        "id": 101,
+        "type": "customer_order",
+        "requester": "Tauhid Zaman",
+        "subject": "Bulldog tee",
+        "sku": "CC-TEE-WHITE",
+        "size": "S",
+        "qty": 1,
+        "lease_id": null,
+        "invoice_id": 501,
+        "status": "open",
+        "notes": "Needs a tee in size S.",
+        "created_at": "2026-08-31T09:15:00-04:00"
+      },
+      {
+        "id": 102,
+        "type": "rent_notice",
+        "requester": "Elm City Properties",
+        "subject": "Rent due",
+        "sku": null,
+        "size": null,
+        "qty": null,
+        "lease_id": 1,
+        "invoice_id": null,
+        "status": "open",
+        "notes": "Email: shop rent due in 2 days.",
+        "created_at": "2026-08-31T11:05:00-04:00"
+      },
+      {
+        "id": 103,
+        "type": "price_override",
+        "requester": "Yale AI Club",
+        "subject": "Bulk hoodie discount",
+        "sku": "CC-HOOD-NAVY",
+        "size": "M",
+        "qty": 20,
+        "lease_id": null,
+        "invoice_id": null,
+        "status": "open",
+        "notes": "Student org wants 20 hoodies, size M, asking for a bulk discount.",
+        "created_at": "2026-08-31T16:55:00-04:00"
+      }
+    ],
+    "generation": 0
+  },
+  "cash_before": {
+    "shop_date": "2026-08-31",
+    "account": {
+      "name": "checking",
+      "balance": 3400.0,
+      "date": "2026-08-31"
+    },
+    "generation": 0
+  },
+  "cash_after": {
+    "shop_date": "2026-08-31",
+    "account": {
+      "name": "checking",
+      "balance": 3400.0,
+      "date": "2026-08-31"
+    },
+    "generation": 0
+  },
+  "operator_session_verified": true,
+  "pending_proposal_count": 0,
+  "event_count": 88,
+  "database_hashes_before": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "database_hashes_after": {
+    "campus_customs.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a",
+    "campus_customs_new.db": "23686a90d698f7fa6f901a3f0a9774db9cbb31e13151c9e5717275f3321f360a"
+  },
+  "passed": true
+}
