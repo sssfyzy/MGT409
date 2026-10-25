@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {canPick,mealSettings,liveFeedback} from '../public/journey.js';
+import {photos} from '../public/food-photos.js';
+import {readFile as readOriginal} from 'node:fs/promises';
+const readFile=(url,...args)=>readOriginal(new URL(String(url).replace('/dist/index.html','/dist/meals/index.html')),...args);
+const s={budget:55,target:700,tax:6.35,tip:0,walk:15,vegetarian:false,allowUnknownWalk:true};
+test('manual picks must leave enough budget for a complete week',()=>{assert.ok(canPick([],'ah-chicken',s));assert.equal(canPick([],'cg-med-bowl',{...s,budget:45}),false);assert.equal(canPick([],'invented',s),false);assert.equal(canPick(Array(5).fill('ah-veggie'),'ah-veggie',s),false);});
+test('manual picking respects diet and unverified walk policy',()=>{assert.equal(canPick([],'ah-chicken',{...s,vegetarian:true}),false);assert.equal(canPick([],'ah-veggie',{...s,allowUnknownWalk:false}),false);});
+test('photos use exact menu dish IDs and official menu provenance, never stock substitutes',()=>{assert.deepEqual(Object.keys(photos).sort(),['cg-antipasto','cg-blt','cg-cheese','cg-ham','cg-hummus','cg-mozzarella']);for(const p of Object.values(photos)){assert.match(p.url,/^https:\/\/static.wixstatic.com\/media\//);assert.equal(p.source,'https://www.cafegeorgebypaula.com/menus');assert.match(p.alt,/Official menu image labeled/);}});
+test('entry is wallet and belly before food selection, not a hero roster',async()=>{const js=await readFile(new URL('../public/journey.js',import.meta.url),'utf8');assert.match(js,/First, meet your buddies/);assert.match(js,/Plan lunch \+ dinner/);assert.match(js,/function showMeals/);assert.ok(!js.includes('Bowl Boss'));const html=await readFile(new URL('../dist/index.html',import.meta.url),'utf8');assert.match(html,/app.js\?v=four-picks-1/);});
+test('per-meal cap is a hard limit even when the week has money left',()=>{const settings=mealSettings({...s,perMealBudget:12});assert.equal(settings.budget,60);assert.ok(canPick([],'cg-cheese',settings));assert.equal(canPick([],'cg-tuscan',settings),false);});
+test('live wallet resets per meal and nutrition unknown is never treated as calories',()=>{const settings=mealSettings({...s,perMealBudget:12});const meal={price:9.25,kcal:null};const f=liveFeedback(['cg-cheese','cg-cheese'],settings,meal);assert.equal(f.left,2.16);assert.equal(f.count,2);assert.equal(f.nutritionKnown,false);assert.equal(liveFeedback([],settings).left,12);});

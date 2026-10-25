@@ -1,0 +1,6 @@
+import {sampleEvent,normalizeEvent,validateExpense,validateTransfer,uid} from './event-core.js';
+export const SANDBOX_KEY='holysplit-split-sandbox-v1';
+export function freshSandbox(){const e=sampleEvent();e.title='The barbecue crew';e.expenses[0].label='Barbecue groceries';e.expenses[1].label='Drinks · Sam skipped';e.expenses[2].label='Shared cake';return normalizeEvent(e);}
+export function changeBill(event,bill){if(event.transfers.length)throw Error('Undo simulated repayments or reset before changing bills.');const next=structuredClone(event),validated=validateExpense(bill,next),index=next.expenses.findIndex(e=>e.id===validated.id);if(index<0)next.expenses.push(validated);else next.expenses[index]=validated;return normalizeEvent(next);}
+export function deleteBill(event,id){if(event.transfers.length)throw Error('Undo simulated repayments or reset before changing bills.');if(!event.expenses.some(e=>e.id===id))throw Error('Bill not found.');return normalizeEvent({...event,expenses:event.expenses.filter(e=>e.id!==id)});}
+export function simulateRepayment(event,transfer){const next=structuredClone(event);next.transfers.push(validateTransfer({...transfer,id:uid()},next));return normalizeEvent(next);}

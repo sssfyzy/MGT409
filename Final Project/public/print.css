@@ -1,0 +1,10 @@
+@media print{
+ @page{size:landscape;margin:12mm}
+ body{background:white!important;color:#16291c!important;font-size:11px}
+ header{height:auto;padding:0 0 10px}.header-right,.intro-note,.preferences,.dataset-bar,.concierge,.bottom-note,.actions,.swap,.lock,.source-link,.move-actions,.schedule-actions,.schedule-help,dialog{display:none!important}
+ main{padding:0;max-width:none}.intro{padding:18px 0}h1{font-size:30px!important;line-height:1.1;letter-spacing:-1px;margin:0}.lede{font-size:11px!important;line-height:1.5}.eyebrow{margin-bottom:6px}
+ .workspace{display:block}.companions{grid-template-columns:1fr 1fr}.companion{min-height:160px;padding:15px;border:1px solid #b6c5a6;break-inside:avoid}.companion h2{font-size:19px!important}.companion .metric-row{margin-top:15px}.wallet-scene,.buddy-scene{display:none!important}.companion>div>p:not(.eyebrow){max-width:100%;min-height:20px}.companion .tiny{font-size:9px}
+ .schedule-toolbar{padding:10px 0!important;border:0!important;background:none!important;margin-top:12px!important}.schedule-toolbar input{border:0;background:none;margin:0;padding:0;font-size:13px;width:auto}.schedule-toolbar label{margin:0}.schedule-toolbar .field-note{display:none}
+ .section-heading{margin-top:15px}.section-heading h2{font-size:20px}.status{margin:6px 0}.week{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:8px}.meal-card{break-inside:avoid;border-color:#b9c4b0}.food-art{height:65px!important}.food-art span{font-size:35px}.food-art:before{width:50px;height:50px}.meal-info{padding:10px}.meal-info h3{font-size:12px;min-height:35px}.meal-detail{font-size:10px}.restaurant{font-size:9px}.meal-bottom strong{font-size:13px}.week .meal-card:last-child{grid-column:auto}.demo-note{margin:15px 0;padding:8px;border:1px solid #aaa;font-size:10px}footer{margin-top:12px;padding:10px 0}.print-week{display:block!important;font-size:12px;margin:8px 0}
+}
+.print-week{display:none}

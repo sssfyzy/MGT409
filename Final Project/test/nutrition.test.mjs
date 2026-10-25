@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {estimateFor,bellyFeedback,calorieText} from '../public/nutrition.js';
+import {localMeals} from '../public/catalogue.js';
+import {readFile} from 'node:fs/promises';
+const meal=id=>localMeals.find(m=>m.id===id);
+test('all 14 menu items have rough component estimates, ranges and assumptions',()=>{for(const m of localMeals){const e=estimateFor(m.id);assert.ok(e);assert.equal(e.kcal,Math.round(e.components.reduce((n,c)=>n+c.kcal,0)/10)*10);assert.ok(e.low<=e.kcal&&e.high>=e.kcal);assert.match(e.method,/not restaurant verified/);assert.ok(e.assumptions.length>30);assert.equal(m.kcal,e.kcal);assert.match(calorieText(m),/rough/);}});
+test('estimates distinguish chicken, ham, beef, fish, bacon and meatless cheese',()=>{assert.match(estimateFor('cg-ham').meat,/Pork ham/);assert.match(estimateFor('cg-blt').meat,/bacon/);assert.match(estimateFor('cg-newhaven').meat,/Chicken.*bacon/);assert.match(estimateFor('ah-steak').meat,/Beef/);assert.match(estimateFor('ah-salmon').meat,/Salmon/);assert.match(estimateFor('cg-cheese').meat,/No meat/);assert.ok(estimateFor('cg-newhaven').kcal>estimateFor('cg-ham').kcal);});
+test('high estimate makes round belly, lighter estimate slim, balanced mix near reference abs',()=>{const round=bellyFeedback([meal('cg-newhaven')],700),slim=bellyFeedback([meal('cg-garden')],700),abs=bellyFeedback([meal('ah-chicken')],700);assert.equal(round.state,'round');assert.equal(slim.state,'slim');assert.equal(abs.state,'abs');assert.ok(round.width>abs.width&&abs.width>slim.width);});
+test('low calorie cheese never earns abs and unknown remains neutral',()=>{assert.notEqual(bellyFeedback([meal('cg-cheese')],550).state,'abs');assert.equal(bellyFeedback([{kcal:null}],700).state,'neutral');assert.equal(bellyFeedback([],700).state,'neutral');assert.equal(estimateFor('missing'),null);});
+test('belly responds to cumulative plan averages rather than snack holding',async()=>{const response=bellyFeedback([meal('cg-newhaven'),meal('cg-newhaven'),meal('ah-chicken')],700);assert.equal(response.state,'round');const js=await readFile(new URL('../public/journey.js',import.meta.url),'utf8');assert.ok(!js.includes('belly-snack'));assert.ok(js.includes('mp-abs'));assert.ok(js.includes('bellyFeedback(chosen'));});

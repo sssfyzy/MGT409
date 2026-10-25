@@ -1,0 +1,14 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {build} from 'vite';
+const root=new URL('../',import.meta.url);
+const result=await build({configFile:false,root:fileURLToPath(root),logLevel:'error',build:{write:false,minify:false,lib:{entry:fileURLToPath(new URL('public/split-demo.js',root)),name:'HolySplitOffline',formats:['iife']}}});
+const outputs=(Array.isArray(result)?result:[result]).flatMap(r=>r.output),js=outputs.filter(o=>o.type==='chunk').map(o=>o.code).join('\n');
+if(!js)throw Error('Offline app bundle missing');
+const css=(await readFile(new URL('public/events.css',root),'utf8')).replace(/@import\s+url\([^)]*\)\s*;/g,'')+'\n'+await readFile(new URL('public/split-demo.css',root),'utf8');
+const mascot='data:image/svg+xml;base64,'+(await readFile(new URL('public/mascot.svg',root))).toString('base64');
+let html=await readFile(new URL('public/split-demo.html',root),'utf8');
+html=html.replace(/<link rel="stylesheet"[^>]+>/g,'').replace('</head>',()=>'<style>'+css+'</style></head>').replaceAll('/mascot.svg',mascot).replace('href="/"','href="#"').replace(/<script type="module"[^>]*><\/script>/,()=>'<script>'+js.replace(/<\/script/gi,'<\\/script')+'</script>');
+if(/<script[^>]+src=|<link rel="stylesheet"/.test(html))throw Error('Offline bundle must have no runtime script or style dependencies');
+await writeFile(new URL('public/holysplit-offline.html',root),html);
+console.log('Standalone HolySplit offline HTML generated; no user data included.');

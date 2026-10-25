@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { cost, summary, generate, validateSettings } from '../public/planner.js';
+import { meals, defaultPlan } from '../public/data.js';
+const settings={budget:85,target:700,tax:6.35,tip:0,walk:15,vegetarian:false};
+test('prices use explicit additive tax and tip, rounded per meal',()=>assert.equal(cost(meals[0],settings),15.42));
+test('summary matches fixture arithmetic',()=>{const t=summary(defaultPlan,settings);assert.equal(t.total,71.78);assert.equal(t.average,632);assert.equal(t.remaining,13.22);});
+test('balanced plan respects hard cap and has variety',()=>{const p=generate(settings);assert.equal(p.length,5);assert.ok(summary(p,settings).total<=85);assert.equal(new Set(p).size,5);});
+test('infeasible budget returns null rather than overspending',()=>assert.equal(generate({...settings,budget:1}),null));
+test('diet and walking limits are enforced',()=>{const p=generate({...settings,vegetarian:true,walk:6});assert.ok(p);for(const id of p){const m=meals.find(x=>x.id===id);assert.ok(m.vegetarian && m.walk<=6);}});
+test('keep a meal in its original slot',()=>assert.equal(generate(settings,'balanced',{2:'burger'})[2],'burger'));
+test('ineligible kept meal makes plan infeasible',()=>assert.equal(generate({...settings,vegetarian:true},'balanced',{2:'burger'}),null));
+test('savings mode does not cost more than balance mode',()=>assert.ok(summary(generate(settings,'save'),settings).total<=summary(generate(settings),settings).total));
+test('invalid settings rejected',()=>{assert.ok(validateSettings(settings));assert.equal(validateSettings({...settings,budget:NaN}),false);assert.equal(validateSettings({...settings,tax:-1}),false);});

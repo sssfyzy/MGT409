@@ -1,0 +1,9 @@
+.join-scene{max-width:640px}
+.join-scene #invite-entry{max-width:530px;background:#eaf0f5;border:1px solid #cbdde6;border-radius:24px;padding:24px;box-shadow:0 5px 0 #c8d9e1}
+.join-scene #invite-entry label{text-align:left;font-size:13px;font-weight:700}
+.join-scene #invite-input{font-size:15px;margin:10px 0 16px;background:#fffefa;overflow-wrap:anywhere}
+.join-scene #invite-entry .button{width:100%;border-radius:20px}
+.join-scene #invite-entry .fine{margin:13px 0 0;line-height:1.5}
+.join-scene #join-status:not(:empty){margin:24px auto 16px;padding:14px 18px;border-radius:16px;background:#f0f4e7;color:#304b3d;font-size:13px;line-height:1.6}
+.join-actions{justify-content:center;margin-top:20px}
+@media(max-width:650px){.join-scene #invite-entry{padding:20px}.join-scene #invite-input{font-size:14px}}

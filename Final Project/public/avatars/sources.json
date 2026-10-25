@@ -1,0 +1,1508 @@
+{
+  "source": "Microsoft Fluent Emoji",
+  "repository": "https://github.com/microsoft/fluentui-emoji",
+  "license": "MIT",
+  "licenseURL": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE",
+  "items": [
+    {
+      "id": "animal-01",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cat%20face/3D/cat_face_3d.png",
+      "sha256": "d930f2aee8ae47cb3ca26f2594ddd15df42345d952b5903b776adf4a728860b5"
+    },
+    {
+      "id": "animal-02",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dog%20face/3D/dog_face_3d.png",
+      "sha256": "7db4c311218a47053e490ec53e7b3995bb83246b0d6992e135868a5220bb32e7"
+    },
+    {
+      "id": "animal-03",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fox/3D/fox_3d.png",
+      "sha256": "1a3bc43212405fb03d8d2bcc709c7f39c99d4a19af06d406cae4724e5fe2b0ad"
+    },
+    {
+      "id": "animal-04",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Panda/3D/panda_3d.png",
+      "sha256": "31524ed035f8d769bc7d437268f30a65eb309ea216e84c09823d4f36c2f97070"
+    },
+    {
+      "id": "animal-05",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Penguin/3D/penguin_3d.png",
+      "sha256": "c513a326631f3758e3ef9729ed2aa3bba46432340657ae63f32fd0332f648341"
+    },
+    {
+      "id": "animal-06",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Otter/3D/otter_3d.png",
+      "sha256": "5fad606187601e377e6ae70a981e5c4d0e58652ab32d321ae4764b38901dd579"
+    },
+    {
+      "id": "animal-07",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Koala/3D/koala_3d.png",
+      "sha256": "e5ec59d366cffe5e0f7d49144264633c71af2e50961d5cfe011f155a7ddfce1a"
+    },
+    {
+      "id": "animal-08",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bear/3D/bear_3d.png",
+      "sha256": "8f108a036c28d25378e3970eea68d00fbf155228b349707f0456e557013a87c9"
+    },
+    {
+      "id": "animal-09",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rabbit%20face/3D/rabbit_face_3d.png",
+      "sha256": "49e3894d0e17c2eeea2b81f50d36ff407731d8b1983f3b5d71a7f7304dcbd5b3"
+    },
+    {
+      "id": "animal-10",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hamster/3D/hamster_3d.png",
+      "sha256": "36a63a367b1d4e1bbba74284f5b2c4c741a3ff611bfec764f377ae4da4e2d51c"
+    },
+    {
+      "id": "animal-11",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tiger%20face/3D/tiger_face_3d.png",
+      "sha256": "124229ecfb2fa27d6d343aa0827f728ff36c2b7ce6f297f103db76dc847ac3d7"
+    },
+    {
+      "id": "animal-12",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lion/3D/lion_3d.png",
+      "sha256": "1f1cf0d0dd94915f3c9f10c3415c5efbd4b8725adfa44a5d564098547076b34b"
+    },
+    {
+      "id": "animal-13",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Unicorn/3D/unicorn_3d.png",
+      "sha256": "7d4a8a3e1040e9ba2b5a562413e258ebacc812e5c6d87946b3de53a66d1736b4"
+    },
+    {
+      "id": "animal-14",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dragon%20face/3D/dragon_face_3d.png",
+      "sha256": "b70a38cc438470f7e35477f0741fb0e7941bdd8543a866741009472f3d4fbd51"
+    },
+    {
+      "id": "animal-15",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Frog/3D/frog_3d.png",
+      "sha256": "c7926ce26b08536982d021237b10024fd5dd0153fd8bd0334a4eb8e457fb2111"
+    },
+    {
+      "id": "animal-16",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Duck/3D/duck_3d.png",
+      "sha256": "c45934c5d609fc03e9713d66ada5e08034b0b27bf29a37a39c726633b5c2d2e4"
+    },
+    {
+      "id": "animal-17",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Owl/3D/owl_3d.png",
+      "sha256": "7dfcdcdebd599787719d98f3057b0822522678e6752369ca3498a780ca7ba443"
+    },
+    {
+      "id": "animal-18",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Parrot/3D/parrot_3d.png",
+      "sha256": "458f758fd9ac7578259f5981fa903c0ecd2da0802a827889a7f7a25cf3603921"
+    },
+    {
+      "id": "animal-19",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Peacock/3D/peacock_3d.png",
+      "sha256": "26b8b6d4430e47ba212c2af2b90ecf9f99bb7b72cb21e6e64b8496f016847cd6"
+    },
+    {
+      "id": "animal-20",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Flamingo/3D/flamingo_3d.png",
+      "sha256": "cda1374b5f4ad9aee904ce92af77b0279ffdf1aa438cb6123540811fa9d8781e"
+    },
+    {
+      "id": "animal-21",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Swan/3D/swan_3d.png",
+      "sha256": "a8ce2500d1b52d6343ff6866bcdb8af561c90a4321e618c3ab1db7668088d933"
+    },
+    {
+      "id": "animal-22",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dove/3D/dove_3d.png",
+      "sha256": "67e415990e8286c4f033fceb7e3cde45975a4046208f0fefeb7e76ba5902f367"
+    },
+    {
+      "id": "animal-23",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Eagle/3D/eagle_3d.png",
+      "sha256": "4ba56f4a18d6e9425809b67eaccd4133baca7bf388f0f36b4d3d6a301960c2d1"
+    },
+    {
+      "id": "animal-24",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Chicken/3D/chicken_3d.png",
+      "sha256": "78a069bc06c3e266ad600804840c44ba2cf291d24d090b3f627c1d5a09cb5a29"
+    },
+    {
+      "id": "animal-25",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rooster/3D/rooster_3d.png",
+      "sha256": "c17448ec2b1e094f062e19f186c17747582b0980faab5852a24155920edc8198"
+    },
+    {
+      "id": "animal-26",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Turkey/3D/turkey_3d.png",
+      "sha256": "772bff90da8f1eea75917a5452993267e7f864c573df3a53d55559dba4a8d590"
+    },
+    {
+      "id": "animal-27",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Blackbird/3D/blackbird_3d.png",
+      "sha256": "62472e2ca2c29b45c9180d740169c51696f2cd78c36953570feda8b7f2a0b05d"
+    },
+    {
+      "id": "animal-28",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bird/3D/bird_3d.png",
+      "sha256": "eeb6e0a3a54f7b5ec2b32995a1062ba3380eebd5f9a00d7158f3cfbb978c31a2"
+    },
+    {
+      "id": "animal-29",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Polar%20bear/3D/polar_bear_3d.png",
+      "sha256": "10b8dffa13631db6936ef898052001de11a2ac4f8065ce28d32e45e582e0420e"
+    },
+    {
+      "id": "animal-30",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Raccoon/3D/raccoon_3d.png",
+      "sha256": "bb91e722ccf85fda99ab79e77b6afc97c183a8a4e1eaec69f02cbc653deed46c"
+    },
+    {
+      "id": "animal-31",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Skunk/3D/skunk_3d.png",
+      "sha256": "4b761eda68239b85e88b6419f4683415f604176518436a04b83dbc7fe4b9442a"
+    },
+    {
+      "id": "animal-32",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sloth/3D/sloth_3d.png",
+      "sha256": "000f1e461dfec9d43991b424b3d0ea4ccb6c342b7f8a1f507f716a460c662d64"
+    },
+    {
+      "id": "animal-33",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hedgehog/3D/hedgehog_3d.png",
+      "sha256": "5c0d9bdeb079fb461fb670b09cbb844aab97860dd4a5a54eb6c62318c7f32f8d"
+    },
+    {
+      "id": "animal-34",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Kangaroo/3D/kangaroo_3d.png",
+      "sha256": "48ee57cc6778f0a586d53fd0647173ae8ef45f3f775fe47adb476f1c2c385f8e"
+    },
+    {
+      "id": "animal-35",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Giraffe/3D/giraffe_3d.png",
+      "sha256": "bfe23a59e8b7f25b691403763f972f3da030edf199cb0665b21e01d1d1f6079c"
+    },
+    {
+      "id": "animal-36",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Zebra/3D/zebra_3d.png",
+      "sha256": "0048ee247960f872952293d6baf6fcc833de4b126db2131d8df9d1f07f1da619"
+    },
+    {
+      "id": "animal-37",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Elephant/3D/elephant_3d.png",
+      "sha256": "d3046f53f45dc20b818484dec97f53634d5c71b277015fc96aebcdc0d49a8f91"
+    },
+    {
+      "id": "animal-38",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hippopotamus/3D/hippopotamus_3d.png",
+      "sha256": "207bed240fcc3ed1f47ca0a65d3978be75e29c8e10dcd470d70cc2a95eb4d15c"
+    },
+    {
+      "id": "animal-39",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rhinoceros/3D/rhinoceros_3d.png",
+      "sha256": "4294c81d62ab0cc7822f8b98cc0249b384dd08071750907daf7e77b5cc32118a"
+    },
+    {
+      "id": "animal-40",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Deer/3D/deer_3d.png",
+      "sha256": "82630f7c9d6fb6c87222267c901d1174b04faf5ac28af9b50c3bf44ae318e993"
+    },
+    {
+      "id": "animal-41",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Goat/3D/goat_3d.png",
+      "sha256": "eaefcf17760065c1c208018e06c0860f920b045cd418538330a5f80d51b0940a"
+    },
+    {
+      "id": "animal-42",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Llama/3D/llama_3d.png",
+      "sha256": "6cb9fcd4111563e87437093f7cecc1fdf1495fa14ee829508500d3c77ffe5f48"
+    },
+    {
+      "id": "animal-43",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Camel/3D/camel_3d.png",
+      "sha256": "f7f125c49f7b21f3031d88ec71a82a217ff55fcb606588d8b462fd90e70a9981"
+    },
+    {
+      "id": "animal-44",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Horse%20face/3D/horse_face_3d.png",
+      "sha256": "8bb57bb52b9af304c148d87e324eefd89252de4d2f6403f8bab37ceb11649a2c"
+    },
+    {
+      "id": "animal-45",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cow%20face/3D/cow_face_3d.png",
+      "sha256": "d26b39b80c43051e072c864570e7561db099646d9c8eea9ec4cd8d417ed3b29a"
+    },
+    {
+      "id": "animal-46",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pig%20face/3D/pig_face_3d.png",
+      "sha256": "8446bb06dc2c1049b28e5413ac6aa3c2cecc18036d1d6f49b135c0ac6c1123fa"
+    },
+    {
+      "id": "animal-47",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Monkey%20face/3D/monkey_face_3d.png",
+      "sha256": "28457ce308d7563afe96f1e1fc703c7ca760045a56596f89329159c55233e7bd"
+    },
+    {
+      "id": "animal-48",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Gorilla/3D/gorilla_3d.png",
+      "sha256": "58ecf7f91ac90a0a1b998693bd9235aa1e42bc93aec119f47e4a400a874fcf33"
+    },
+    {
+      "id": "animal-49",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Orangutan/3D/orangutan_3d.png",
+      "sha256": "d0aeb04dfb30fe5c8313b7b247fafbadf6c88244c43bb53f810cf609ff6b1efb"
+    },
+    {
+      "id": "animal-50",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Wolf/3D/wolf_3d.png",
+      "sha256": "6e4f1a171cecc2ef682b41209e72677535741a88d78838a5de13f6696d2d821b"
+    },
+    {
+      "id": "animal-51",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bat/3D/bat_3d.png",
+      "sha256": "4044ac8c7d72df1e8ca9642b8995b0d3ce1ff62ebef02f5571e1812e4ab8330f"
+    },
+    {
+      "id": "animal-52",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Seal/3D/seal_3d.png",
+      "sha256": "c7d66e414fca2f014e2a0333e75cff1b6aa636f18223d2f226799d514a8d93b7"
+    },
+    {
+      "id": "animal-53",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shark/3D/shark_3d.png",
+      "sha256": "a60ab98d8fe5ee118fab6a3cdad32efbb6613aae35aa758604f901e9e5d1cac2"
+    },
+    {
+      "id": "animal-54",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spouting%20whale/3D/spouting_whale_3d.png",
+      "sha256": "6d54f3331c142690c6762c4cf5e2b212a45e652e16653f1a765ce3346db0f8db"
+    },
+    {
+      "id": "animal-55",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tropical%20fish/3D/tropical_fish_3d.png",
+      "sha256": "6179b36bbd40d25863d2dc7e9680a2e6d922f354fdada4fb707c5ebfae845808"
+    },
+    {
+      "id": "animal-56",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Blowfish/3D/blowfish_3d.png",
+      "sha256": "46984bce881dea516089cdcbb66a9ce48ec3bbe5034d24678ce9f437ce28f547"
+    },
+    {
+      "id": "animal-57",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Octopus/3D/octopus_3d.png",
+      "sha256": "4dfd49959bc303d641dca3b36c35c3d4d3c4b248c9394aa5879fe2c5edfeb089"
+    },
+    {
+      "id": "animal-58",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Squid/3D/squid_3d.png",
+      "sha256": "eac8e1eec37ec616d6eea4bd507682c42a9c5bac32c9532855290691ee658fc2"
+    },
+    {
+      "id": "animal-59",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Jellyfish/3D/jellyfish_3d.png",
+      "sha256": "b807bb54d0cffcf81ad27d8943fc03f2161e9359c7c24632c45fb24622a4962e"
+    },
+    {
+      "id": "animal-60",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crab/3D/crab_3d.png",
+      "sha256": "5dab35d6ebc98078d272885769d6621976582003886911a040c608b52c548177"
+    },
+    {
+      "id": "animal-61",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lobster/3D/lobster_3d.png",
+      "sha256": "af70bf7c7983bccb4c72c9bae7dc769df39125b42d6a5622006c99de6261b7c2"
+    },
+    {
+      "id": "animal-62",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Turtle/3D/turtle_3d.png",
+      "sha256": "86486ad9e55664aad9e28af70a8b35dbbadd0678be5f0d1f0b1b5baba616649c"
+    },
+    {
+      "id": "animal-63",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crocodile/3D/crocodile_3d.png",
+      "sha256": "defa9f80af9049f9dc3e5f9732712c0f0bf6d72a8dcece2901a28aa4186bc75c"
+    },
+    {
+      "id": "animal-64",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snake/3D/snake_3d.png",
+      "sha256": "3d9ad552f970ebcf8d9adf27d0d08b4f783646a25378d6283e956e2f73c0466c"
+    },
+    {
+      "id": "animal-65",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Butterfly/3D/butterfly_3d.png",
+      "sha256": "2ee52f94c6383dafdd29f471d04c17141563d7fff790d33e16781a751f72b397"
+    },
+    {
+      "id": "animal-66",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Honeybee/3D/honeybee_3d.png",
+      "sha256": "7769854974b0fe9d75ccf16943f7f01773c87a1b1f2f84feb16327be46c69ef2"
+    },
+    {
+      "id": "animal-67",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lady%20beetle/3D/lady_beetle_3d.png",
+      "sha256": "2aaf2b3e1147a19237fd0350d094e8260023a2d3058ee8872f48f716c694bca1"
+    },
+    {
+      "id": "animal-68",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ant/3D/ant_3d.png",
+      "sha256": "6c567df5af574862b30ad67f03133546089d4d5ad47db37670e01c62ece6e383"
+    },
+    {
+      "id": "animal-69",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spider/3D/spider_3d.png",
+      "sha256": "1314ba0e99860d8f241cb263365d75af622f243b5cd4b66f0a407cef17b86826"
+    },
+    {
+      "id": "animal-70",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Phoenix%20bird/3D/phoenix_bird_3d.png",
+      "sha256": "034bad9c5fccb7384ae3bfe961a02997881b9132a1e9c7437c57f8774b86153c"
+    },
+    {
+      "id": "animal-71",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Black%20cat/3D/black_cat_3d.png",
+      "sha256": "fdfca4afdc8f2b771ada8ffa5efd848fd9dcab747b8fe9ca8f7e806557648ce8"
+    },
+    {
+      "id": "animal-72",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grinning%20cat%20with%20smiling%20eyes/3D/grinning_cat_with_smiling_eyes_3d.png",
+      "sha256": "b8eb3151d342b7b459f1401998300a915125a3d87a44136449b1d9e884f022d7"
+    },
+    {
+      "id": "animal-73",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Kissing%20cat/3D/kissing_cat_3d.png",
+      "sha256": "d31ec3990e7989fa64d96514e9f78c4be16481fa387990b217987e7660ab3ad0"
+    },
+    {
+      "id": "animal-74",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pouting%20cat/3D/pouting_cat_3d.png",
+      "sha256": "5d123bec7e472cf71508ddd2c413bbc4635da223410d5e2119a10f5974e886ba"
+    },
+    {
+      "id": "animal-75",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20cat%20with%20heart-eyes/3D/smiling_cat_with_heart-eyes_3d.png",
+      "sha256": "7f5ca63e7231af11a6aba486bcca01785cca2f724f34b728ffc141c961986ebf"
+    },
+    {
+      "id": "animal-76",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cat%20with%20tears%20of%20joy/3D/cat_with_tears_of_joy_3d.png",
+      "sha256": "ef898754403fe81aece4059a32a1aeba623ce6404df2868e6ba848757541f251"
+    },
+    {
+      "id": "animal-77",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cat%20with%20wry%20smile/3D/cat_with_wry_smile_3d.png",
+      "sha256": "c0f18ad8b5805d10e8e0fcc86edce6764bbcb56b0f707bb1c9e66b10f2474358"
+    },
+    {
+      "id": "animal-78",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crying%20cat/3D/crying_cat_3d.png",
+      "sha256": "bc68537a49704dd065f935c1c78efc63ab826a980c2ff112cf4c241ce5955b14"
+    },
+    {
+      "id": "animal-79",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Weary%20cat/3D/weary_cat_3d.png",
+      "sha256": "05e67896364a223f2cde2b1d0a1159f11ae1626ebd0ab79a147aa6c496876ca4"
+    },
+    {
+      "id": "animal-80",
+      "category": "animal",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Poodle/3D/poodle_3d.png",
+      "sha256": "6b5ef840cdd4c4a4827d668abdd3799714463ff72c073a8a160ee35c932dcb0f"
+    },
+    {
+      "id": "food-01",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Strawberry/3D/strawberry_3d.png",
+      "sha256": "446d640c24e146d03e8382c61ae52862848b11aadf74e7b47d200bc44d2f0223"
+    },
+    {
+      "id": "food-02",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cherries/3D/cherries_3d.png",
+      "sha256": "3ebbdc0c13ab42cdf9b5ed27f444b17e92a01b08eac76a4c893c2210e86bca73"
+    },
+    {
+      "id": "food-03",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Watermelon/3D/watermelon_3d.png",
+      "sha256": "00bacc111ae855cf0621d35ba987d519c07fb4103500edc4af2152fa6d27177e"
+    },
+    {
+      "id": "food-04",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pineapple/3D/pineapple_3d.png",
+      "sha256": "428706e3eb27e9c34a4740f7264a75f8bc0be6aac3f7d8999dc3746c7afefef0"
+    },
+    {
+      "id": "food-05",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Avocado/3D/avocado_3d.png",
+      "sha256": "526f16895dee591111aa502e6a07e3a8cd6262b4189be7f670c82a76e702f4d2"
+    },
+    {
+      "id": "food-06",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Lemon/3D/lemon_3d.png",
+      "sha256": "b0919ced1b7ae879f8900af4a71a001491280dbd9a6592eca808ee4801c673dc"
+    },
+    {
+      "id": "food-07",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Banana/3D/banana_3d.png",
+      "sha256": "b82cd3cc7e56e70026b599aeec5d811568b507adc96473bf854096f5e67d92a5"
+    },
+    {
+      "id": "food-08",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Peach/3D/peach_3d.png",
+      "sha256": "16c8580f3d7e81234fb8dc0e2a56853efc2735d851ad26f55fba94d13341753a"
+    },
+    {
+      "id": "food-09",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Green%20apple/3D/green_apple_3d.png",
+      "sha256": "24c8ae85882b158d84cd9da16e87f62dc60f2c36e451b45a04f3f3601e1eb002"
+    },
+    {
+      "id": "food-10",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grapes/3D/grapes_3d.png",
+      "sha256": "862ea99e063a228682b5b2da59613ddb2e64d7ad0144712125eb34d9cd2fa36d"
+    },
+    {
+      "id": "food-11",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mushroom/3D/mushroom_3d.png",
+      "sha256": "cd3d240093294db7a66b3aa9570b558405d0d31dc31604fe1be46c9b4e0f836a"
+    },
+    {
+      "id": "food-12",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Croissant/3D/croissant_3d.png",
+      "sha256": "e597c363b47377aaf24d96bce84ea47c1450b7c31ba6d4152bf344d747f16ba4"
+    },
+    {
+      "id": "food-13",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bagel/3D/bagel_3d.png",
+      "sha256": "5ca71d02a99357ec640004a0900d368b45265b94bea71999cb67bc0fafd96f9f"
+    },
+    {
+      "id": "food-14",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pretzel/3D/pretzel_3d.png",
+      "sha256": "628c91de7db3be2eec0638dc7269a02397b1818c6f2b022798db2a0c9c35e111"
+    },
+    {
+      "id": "food-15",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pancakes/3D/pancakes_3d.png",
+      "sha256": "5170256c720af02a4b4a0c971aaf6f10822a988d3034180e0e7725f44b3fe444"
+    },
+    {
+      "id": "food-16",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Waffle/3D/waffle_3d.png",
+      "sha256": "941f6349d70ba26ebe4d6aa3567eb8e3b460ff7e97a672acf9332b342e88c31a"
+    },
+    {
+      "id": "food-17",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cupcake/3D/cupcake_3d.png",
+      "sha256": "1d39177c541e5a3253922f88fc8c33aae4e8ad26d13a4f2272f830d168c02289"
+    },
+    {
+      "id": "food-18",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Doughnut/3D/doughnut_3d.png",
+      "sha256": "5527fa6a366ad366a45f84b71432e8a54aa502debea3b53d3926c2823fcdf986"
+    },
+    {
+      "id": "food-19",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cookie/3D/cookie_3d.png",
+      "sha256": "d3c5f5e2864d3178bf2033074c0cf679b067192fa9b5e1aa136267c7ac95d376"
+    },
+    {
+      "id": "food-20",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Birthday%20cake/3D/birthday_cake_3d.png",
+      "sha256": "5c5d6961fde0fa82d1aa2242f938ff10b0327e791674c625c912f13ff206933b"
+    },
+    {
+      "id": "food-21",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shortcake/3D/shortcake_3d.png",
+      "sha256": "0acebe0de7e4d5393c8825ee1a233ea8780e52bfec71ab52dd3e0135e8a9fb37"
+    },
+    {
+      "id": "food-22",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pizza/3D/pizza_3d.png",
+      "sha256": "beb2d1ac000003d96711ea8364815641442523285fa59007dd5b589059c74b9a"
+    },
+    {
+      "id": "food-23",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Taco/3D/taco_3d.png",
+      "sha256": "33687d9e320233c811998633f5ff1ac95f82fba22d8f31a9af62cf49ea96fa44"
+    },
+    {
+      "id": "food-24",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hamburger/3D/hamburger_3d.png",
+      "sha256": "5a078744b30da58e854ab7700c501180e0b11337c9d64e33b70585c8b98088a5"
+    },
+    {
+      "id": "food-25",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/French%20fries/3D/french_fries_3d.png",
+      "sha256": "b151bcc12de63b16a4cdb57a2cd71b7d3421d64550fb361bb849a3562ddedc52"
+    },
+    {
+      "id": "food-26",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hot%20dog/3D/hot_dog_3d.png",
+      "sha256": "dd2de011487b7c1fc34fc6313ad221b81633b6d85c180622e6d56ccd88a81108"
+    },
+    {
+      "id": "food-27",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sushi/3D/sushi_3d.png",
+      "sha256": "5992070c8e4af0af12643e16999606b891bfd5b49b0f8aa33e9bf9e7bba5ed68"
+    },
+    {
+      "id": "food-28",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dumpling/3D/dumpling_3d.png",
+      "sha256": "79938989161be1b37415ae7e7715611c5858e2e38d786d79de751f795116a3ff"
+    },
+    {
+      "id": "food-29",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Popcorn/3D/popcorn_3d.png",
+      "sha256": "28ef7634d377bd78856b9ce45ba252e4455bf82988ce7e468a89042a4d805f6c"
+    },
+    {
+      "id": "food-30",
+      "category": "food",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ice%20cream/3D/ice_cream_3d.png",
+      "sha256": "cbe49b092b8e38d86e353595c8c1ccfc8d7b9803307e893b43cfb970c113275f"
+    },
+    {
+      "id": "fun-01",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pile%20of%20poo/3D/pile_of_poo_3d.png",
+      "sha256": "4cef7c6d6f48b0a96f9cd803417b7d63161c19e8247520b6a8a2ebe286237da8"
+    },
+    {
+      "id": "fun-02",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Alien/3D/alien_3d.png",
+      "sha256": "7b2318a60f36814c289e92643cbfa8d72caac26d98e955d8cae196d3db9abddf"
+    },
+    {
+      "id": "fun-03",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Alien%20monster/3D/alien_monster_3d.png",
+      "sha256": "b4c7568f82af02448cc9be488732e46a35417dc8954455983d72f05d568e9452"
+    },
+    {
+      "id": "fun-04",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ghost/3D/ghost_3d.png",
+      "sha256": "2a07c00a4af13532717a201e201b7219f02ce91232ea86abd7e74cbf1b5fb42f"
+    },
+    {
+      "id": "fun-05",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Robot/3D/robot_3d.png",
+      "sha256": "3f9b5a00b53c8bddda36b6a3f68d00718d9d7d8c04f986a3248e55ae93a7961b"
+    },
+    {
+      "id": "fun-06",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Skull/3D/skull_3d.png",
+      "sha256": "9920d9e79017306b7af9eef09117070ff7fde28d7711fdb4861c14c446b5bf45"
+    },
+    {
+      "id": "fun-07",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Jack-o-lantern/3D/jack-o-lantern_3d.png",
+      "sha256": "8a50525726bf64ba78f853f244857a1cfc3207be4d6b47da4bba823f67b6dbbf"
+    },
+    {
+      "id": "fun-08",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crown/3D/crown_3d.png",
+      "sha256": "817095bb1423468afa155317ba04ca333957d51757a8d3326856ee8707c0edd6"
+    },
+    {
+      "id": "fun-09",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Gem%20stone/3D/gem_stone_3d.png",
+      "sha256": "50dd4109b524203fc9e208e24498f6f468c54f104b4eb41e914dec203e841820"
+    },
+    {
+      "id": "fun-10",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Magic%20wand/3D/magic_wand_3d.png",
+      "sha256": "ba15c729deed09fc6d51114ab14356135e08e8562cb82d040dfe601594138308"
+    },
+    {
+      "id": "fun-11",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crystal%20ball/3D/crystal_ball_3d.png",
+      "sha256": "f42c5484bea4f33f7ba8ee2b5c7e2a51d17a9fcec36f2ba92334f62b7f95eb43"
+    },
+    {
+      "id": "fun-12",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rocket/3D/rocket_3d.png",
+      "sha256": "4636925a1dfc76a45dc83c08b983699d39143a0978f794a4e2dfb6cbffdcd7ab"
+    },
+    {
+      "id": "fun-13",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Flying%20saucer/3D/flying_saucer_3d.png",
+      "sha256": "13e744b9e055c03fe4a5ca89d46ed17d8f33e169c4d928870e0d6886c77e61c7"
+    },
+    {
+      "id": "fun-14",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Balloon/3D/balloon_3d.png",
+      "sha256": "1f3ae11652b440750cfd3e724888b3827d8e9349367cea80e57e33fd45588215"
+    },
+    {
+      "id": "fun-15",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Party%20popper/3D/party_popper_3d.png",
+      "sha256": "70a8e2f9daf1646be9e773751b7f3b6b281a2415cf29c3c3aeebd9c923cdc3e0"
+    },
+    {
+      "id": "fun-16",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fireworks/3D/fireworks_3d.png",
+      "sha256": "25838694c923a57e5c7912af18893d7eb031da0b1591a1c3e648a3e7807bfd2c"
+    },
+    {
+      "id": "fun-17",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sparkles/3D/sparkles_3d.png",
+      "sha256": "e4490c9ff74a3fd73a8f99c760d65b6ed51b8a3e4ad28da137fec050b77e1058"
+    },
+    {
+      "id": "fun-18",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fire/3D/fire_3d.png",
+      "sha256": "d56355132d73df1741edcf37cb4e21ad54f1c46eeb76fa17224607abf4128c3f"
+    },
+    {
+      "id": "fun-19",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rainbow/3D/rainbow_3d.png",
+      "sha256": "81c60a96369047dd287b9fb54d02d29fe1e9b7fe3f00924330037e861b1fbd81"
+    },
+    {
+      "id": "fun-20",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Glowing%20star/3D/glowing_star_3d.png",
+      "sha256": "a8041e122bfebbc72ff85c294568561ae77dc97ae322f747292c082901a3bef7"
+    },
+    {
+      "id": "fun-21",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sun%20with%20face/3D/sun_with_face_3d.png",
+      "sha256": "f8a161586bf6eb7635845ec8ad7bdf0672fa97947ab4ece4fdfdc1f3f671730a"
+    },
+    {
+      "id": "fun-22",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Full%20moon/3D/full_moon_3d.png",
+      "sha256": "00dd24efe4fc9b13a020f59309d962ecd3bede581abeca5111056a8fc84c779e"
+    },
+    {
+      "id": "fun-23",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Teddy%20bear/3D/teddy_bear_3d.png",
+      "sha256": "149fc51d489ec22d2054576293a1135d5c86efcd7cbc262b55cdb94d569d0a23"
+    },
+    {
+      "id": "fun-24",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Video%20game/3D/video_game_3d.png",
+      "sha256": "4b01e22089defe553717d49624e673cb5492ecdd9c6a8eddb7e6ba12d400c0da"
+    },
+    {
+      "id": "fun-25",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Game%20die/3D/game_die_3d.png",
+      "sha256": "454d51562973cf3af447db64832905d8f3fc3bbc7508c5a8bf79d2771edbbe4c"
+    },
+    {
+      "id": "fun-26",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Guitar/3D/guitar_3d.png",
+      "sha256": "a993e9066855f890c1c89eaa0295e75fbc5a1accb17db41fcb3b05c888fb9b27"
+    },
+    {
+      "id": "fun-27",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Musical%20notes/3D/musical_notes_3d.png",
+      "sha256": "72bd5c2870b7bcad31bb591a789107c92825b7dd844006366e6fc4e1fa31ab36"
+    },
+    {
+      "id": "fun-28",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Soccer%20ball/3D/soccer_ball_3d.png",
+      "sha256": "bf8597110e987c13b8a3ac0c317d6903cef29499faa04de695b5fc37dbb5a053"
+    },
+    {
+      "id": "fun-29",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Basketball/3D/basketball_3d.png",
+      "sha256": "cdca1c9b81130ab7b1f8da385984bfaba3f577176bb84b927ad70cfe367cecff"
+    },
+    {
+      "id": "fun-30",
+      "category": "fun",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Four%20leaf%20clover/3D/four_leaf_clover_3d.png",
+      "sha256": "37b310abbb0914050cb033ffcb99fe25b09c4e47d1d0ef93988f60f6fd849d07"
+    },
+    {
+      "id": "meme-01",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Zany%20face/3D/zany_face_3d.png",
+      "sha256": "3d7805655cb653c12dc4662a58dc447fadae80b29ffc2f5a28e3dbabba2f81da"
+    },
+    {
+      "id": "meme-02",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Partying%20face/3D/partying_face_3d.png",
+      "sha256": "e01bd94de6b85468f6e59da55d380985c363f6bc300b412d18290f143f7e44a9"
+    },
+    {
+      "id": "meme-03",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20face%20with%20sunglasses/3D/smiling_face_with_sunglasses_3d.png",
+      "sha256": "e98cb43a7a531289c82eb57441eb20cd88cb53b895c212d8e3abf05dd2647da1"
+    },
+    {
+      "id": "meme-04",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20tears%20of%20joy/3D/face_with_tears_of_joy_3d.png",
+      "sha256": "8af20fb0c64c44a8d8c8d047c1410c5e529a37c3158d496832b380198ed2e9c3"
+    },
+    {
+      "id": "meme-05",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rolling%20on%20the%20floor%20laughing/3D/rolling_on_the_floor_laughing_3d.png",
+      "sha256": "22ebfd950c4df297e784babe1e31bc1713144615f78cb0262c8dc2ce0da90ca0"
+    },
+    {
+      "id": "meme-06",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20peeking%20eye/3D/face_with_peeking_eye_3d.png",
+      "sha256": "f20bf09f252c389ba7908f26a2326e4f8a38ec4e58fb9d14bf5efb64191c0251"
+    },
+    {
+      "id": "meme-07",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Melting%20face/3D/melting_face_3d.png",
+      "sha256": "39967c77e124e7f1e44043b3b98c634b2c09aca01b1cc5b52b7a6b563f7c99d8"
+    },
+    {
+      "id": "meme-08",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20in%20clouds/3D/face_in_clouds_3d.png",
+      "sha256": "baa3de9b5ad85cd3fac3bdad0e238ac684a939c3899bc1d79346726c8e79607e"
+    },
+    {
+      "id": "meme-09",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20exhaling/3D/face_exhaling_3d.png",
+      "sha256": "7838181488c279e7a5381541765cdfd0b821fdcadabac7ac946267a097d561df"
+    },
+    {
+      "id": "meme-10",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20hand%20over%20mouth/3D/face_with_hand_over_mouth_3d.png",
+      "sha256": "c87c0277c7b0ade675b69a5c90482041d8b5af42bbccd19bf0b88e8ee0865086"
+    },
+    {
+      "id": "meme-11",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20open%20eyes%20and%20hand%20over%20mouth/3D/face_with_open_eyes_and_hand_over_mouth_3d.png",
+      "sha256": "85d30dc2e232f14ec9fc09ca8d8c1639251ee40e1f61e9f9c3fc5319777f2b25"
+    },
+    {
+      "id": "meme-12",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Thinking%20face/3D/thinking_face_3d.png",
+      "sha256": "cd29da5c3886e1e25726d3cf6ff79faa2f0d631b1c0873b115be287d358fc4be"
+    },
+    {
+      "id": "meme-13",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20raised%20eyebrow/3D/face_with_raised_eyebrow_3d.png",
+      "sha256": "13e2bca9b7a3cc83c2a14214fb540e7f6ea0826750ecfdc0d1e9f8ee66567b53"
+    },
+    {
+      "id": "meme-14",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smirking%20face/3D/smirking_face_3d.png",
+      "sha256": "bf047787b8a7984d1def106ff6fc92b9178fe32b8c2c2b775daec9bae56165b6"
+    },
+    {
+      "id": "meme-15",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Winking%20face/3D/winking_face_3d.png",
+      "sha256": "f14edbaa23f127ee6ee7c4a17b35969405a3c441b3f79c3356cc6406c1bf9ae4"
+    },
+    {
+      "id": "meme-16",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Winking%20face%20with%20tongue/3D/winking_face_with_tongue_3d.png",
+      "sha256": "d89d3542df5bf0c60300a6ebe88dd050278f9eec1c5cefd447ba7766e7f346fa"
+    },
+    {
+      "id": "meme-17",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Squinting%20face%20with%20tongue/3D/squinting_face_with_tongue_3d.png",
+      "sha256": "e3185f2b4cbcc8f553618c037417c42bdc4c397a7c2372d3379623ca4ad113ff"
+    },
+    {
+      "id": "meme-18",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20tongue/3D/face_with_tongue_3d.png",
+      "sha256": "606fe49cf6dd67f01e602f4553eda41055e2705b491f9cc4ef3544b6714b595d"
+    },
+    {
+      "id": "meme-19",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Drooling%20face/3D/drooling_face_3d.png",
+      "sha256": "f516c3a62a05b82bd3af9ca2f5b7c6c95850ea8a819873c4134ad804e4472e26"
+    },
+    {
+      "id": "meme-20",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Money-mouth%20face/3D/money-mouth_face_3d.png",
+      "sha256": "4b505c1e10e3fbdafa92ff787a8c3c6732dc66861483c52525cd00facfff179a"
+    },
+    {
+      "id": "meme-21",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Nerd%20face/3D/nerd_face_3d.png",
+      "sha256": "315caf53dc0f11091494c8cceacda4ef316ae2eb28e02d2cf95a7bb34bad806e"
+    },
+    {
+      "id": "meme-22",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Disguised%20face/3D/disguised_face_3d.png",
+      "sha256": "0a0848bf71468635f752d46be66d8c292b400ec6502f5b8f9e1898d55c41ae90"
+    },
+    {
+      "id": "meme-23",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cowboy%20hat%20face/3D/cowboy_hat_face_3d.png",
+      "sha256": "9ef48091f71a81a04fe648cac438be0b0ae3f832879a9dd3451e0aaeb2b4732b"
+    },
+    {
+      "id": "meme-24",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Clown%20face/3D/clown_face_3d.png",
+      "sha256": "9a4c1f94b7bc3fa43ce6695213dd8a001d972d4609bbd58d988bd7f9128db9c7"
+    },
+    {
+      "id": "meme-25",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pleading%20face/3D/pleading_face_3d.png",
+      "sha256": "7dfc89c51118f0adecf886063b5eafce140a613075394ebe22ed9dd2bd9e9c4f"
+    },
+    {
+      "id": "meme-26",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hugging%20face/3D/hugging_face_3d.png",
+      "sha256": "2f70a465496f45c146253fc933202a38f4f8e1af8b2a0e2555832456c03f1b2e"
+    },
+    {
+      "id": "meme-27",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20face%20with%20heart-eyes/3D/smiling_face_with_heart-eyes_3d.png",
+      "sha256": "2b5ab00dd73673faa86463eac8787b7fc366935c4d82a54451df33443190b9cc"
+    },
+    {
+      "id": "meme-28",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20face%20with%20hearts/3D/smiling_face_with_hearts_3d.png",
+      "sha256": "2b8c4abe57a81fe3805ec0c271f855984e9f4a7a1d10053050a4db7b6def778e"
+    },
+    {
+      "id": "meme-29",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20blowing%20a%20kiss/3D/face_blowing_a_kiss_3d.png",
+      "sha256": "5a993350588f243ae13c011b5cb8cc4a5f497d2cc213adfefc5ded40196afe10"
+    },
+    {
+      "id": "meme-30",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20face%20with%20halo/3D/smiling_face_with_halo_3d.png",
+      "sha256": "e8f119ffa91001b094448ae148ee6d29fbbdbf6d718b5669b670c75b61e2f03b"
+    },
+    {
+      "id": "meme-31",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Saluting%20face/3D/saluting_face_3d.png",
+      "sha256": "3a18f67e9cb6edaa18e9331451f9b93527aca574c52f9e6d896cce691e737b5a"
+    },
+    {
+      "id": "meme-32",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grinning%20squinting%20face/3D/grinning_squinting_face_3d.png",
+      "sha256": "b9a3e632bd3cceb6e3d9233989c7629dc651ea3b970f53a94665cd67b0ea556d"
+    },
+    {
+      "id": "meme-33",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grinning%20face%20with%20sweat/3D/grinning_face_with_sweat_3d.png",
+      "sha256": "dcac6dc921b77aabc16d524ed5d5067f66b6104d545c5f6396f7bbdba6d4cf2c"
+    },
+    {
+      "id": "meme-34",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beaming%20face%20with%20smiling%20eyes/3D/beaming_face_with_smiling_eyes_3d.png",
+      "sha256": "043c9fced9114368d73af7d1689cfcfc1ed42883456642770912f3d5e978dda3"
+    },
+    {
+      "id": "meme-35",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grinning%20face%20with%20big%20eyes/3D/grinning_face_with_big_eyes_3d.png",
+      "sha256": "2e1e71709927b706cf9721c8f730afa735da4073685ce365a54e4951e5133c80"
+    },
+    {
+      "id": "meme-36",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grinning%20face%20with%20smiling%20eyes/3D/grinning_face_with_smiling_eyes_3d.png",
+      "sha256": "4661c4c7f43fc3aeb2e452d4be40782b1957b3ca944b2620886cd22c102dfdcf"
+    },
+    {
+      "id": "meme-37",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grinning%20face/3D/grinning_face_3d.png",
+      "sha256": "175d214df45fe18f6f106a9a094b695689d98abe6f343295fcbd690a7ee4f0ab"
+    },
+    {
+      "id": "meme-38",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20face%20with%20smiling%20eyes/3D/smiling_face_with_smiling_eyes_3d.png",
+      "sha256": "73dce77bd423b2531809763025d20faca40d2391fd12dc1fc88a986872d8214a"
+    },
+    {
+      "id": "meme-39",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Slightly%20smiling%20face/3D/slightly_smiling_face_3d.png",
+      "sha256": "6d7afa319ea9acf5d260ef019434ee37c6333fd20dcfa7a0fef4bb573f84ec1a"
+    },
+    {
+      "id": "meme-40",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Upside-down%20face/3D/upside-down_face_3d.png",
+      "sha256": "de4e2d827973cc3c0288daa26559389847a3cf3a1b2597be85f40e7056aeea42"
+    },
+    {
+      "id": "meme-41",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shushing%20face/3D/shushing_face_3d.png",
+      "sha256": "0045661e6269e01b454cf9c54aea5c81e00891b76f36932046dc2a77502fe95b"
+    },
+    {
+      "id": "meme-42",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20rolling%20eyes/3D/face_with_rolling_eyes_3d.png",
+      "sha256": "2c1d7babfd5b788a90d960bf3690c39fcdc9cad37b0c7cad6c4b5d6d1b79d8c4"
+    },
+    {
+      "id": "meme-43",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Unamused%20face/3D/unamused_face_3d.png",
+      "sha256": "039b56c0f5713dd1f80d1bbb3b0c18632992f301334f423719973148d5cc8c2d"
+    },
+    {
+      "id": "meme-44",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Expressionless%20face/3D/expressionless_face_3d.png",
+      "sha256": "6e7bb93a79ad236ff2b79bc8d2b0f2b0e8b0ef4ac04d134cb09d79233c2c213c"
+    },
+    {
+      "id": "meme-45",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Confused%20face/3D/confused_face_3d.png",
+      "sha256": "86b74cbfda53e682ca7789a750a2ba3e4aede49e6b39b7a73b86fbb8bb98fb3a"
+    },
+    {
+      "id": "meme-46",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20diagonal%20mouth/3D/face_with_diagonal_mouth_3d.png",
+      "sha256": "06c954ab00b6a8f976b3b2058690d0f662f7f942437f98d7236c8f0805d571fb"
+    },
+    {
+      "id": "meme-47",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hushed%20face/3D/hushed_face_3d.png",
+      "sha256": "0ff5204c6a0c78a45d74b42f7a8ef25c0110813c4472d6f8f67043a9a922bee2"
+    },
+    {
+      "id": "meme-48",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Astonished%20face/3D/astonished_face_3d.png",
+      "sha256": "7b4fd7ff6da369b503ad95c4a33e984f6ba1fbd9e08f7851d9d5ad7e67c7c51f"
+    },
+    {
+      "id": "meme-49",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Flushed%20face/3D/flushed_face_3d.png",
+      "sha256": "6058b2f5d07f7e3bfb569cbfc0d156b059bd672b53d467ca66ba3d64f81c5a9e"
+    },
+    {
+      "id": "meme-50",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hot%20face/3D/hot_face_3d.png",
+      "sha256": "6266103d439cfbe33857199b407d16b108bd68b452cb594f477167b7ff9a7059"
+    },
+    {
+      "id": "meme-51",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cold%20face/3D/cold_face_3d.png",
+      "sha256": "0196625191a24519055a6eec8526b4c6b215197a93dc477a1f51657fa5486bad"
+    },
+    {
+      "id": "meme-52",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20screaming%20in%20fear/3D/face_screaming_in_fear_3d.png",
+      "sha256": "fe82efcca47346ff85d85b6e947f9c70dcb9e8ba463b1900053b23f1faf37789"
+    },
+    {
+      "id": "meme-53",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20steam%20from%20nose/3D/face_with_steam_from_nose_3d.png",
+      "sha256": "7d451ed5cff4c3c323e4a46e132b1dba39727478a48f621d74282d49d6b9841d"
+    },
+    {
+      "id": "meme-54",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Angry%20face%20with%20horns/3D/angry_face_with_horns_3d.png",
+      "sha256": "2acf85a77e876ab19524398e269dabe87501d4d2413390edd19355c1b1227e6f"
+    },
+    {
+      "id": "meme-55",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20face%20with%20horns/3D/smiling_face_with_horns_3d.png",
+      "sha256": "bfb04bbb4b3179ff990ff9d94a49ff070332f7f7bf2dc3ea0799ba7000a147b1"
+    },
+    {
+      "id": "meme-56",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20symbols%20on%20mouth/3D/face_with_symbols_on_mouth_3d.png",
+      "sha256": "94c3b5fe459640d3628667b607cb2b2a0d7df032da7322e3d0595a6b697cece7"
+    },
+    {
+      "id": "meme-57",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crying%20face/3D/crying_face_3d.png",
+      "sha256": "9fb63e831445543e063c675ea3d428feedfe4c66a6630ae0f9223c6f9b17653f"
+    },
+    {
+      "id": "meme-58",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Loudly%20crying%20face/3D/loudly_crying_face_3d.png",
+      "sha256": "9e7b740110d12731e7416c8958b88bfadd75e0e7121ab0245e581e8f70491e02"
+    },
+    {
+      "id": "meme-59",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20holding%20back%20tears/3D/face_holding_back_tears_3d.png",
+      "sha256": "5e31e32cd02ce014aa2eae0df46f38b0532dd74ff01224309181d6b75519ec76"
+    },
+    {
+      "id": "meme-60",
+      "category": "meme",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sleepy%20face/3D/sleepy_face_3d.png",
+      "sha256": "0d5d74dc3802603b3df9234da6f671afd1ed1d80cf2d6f27f907841f3299201e"
+    },
+    {
+      "id": "weather-01",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sun/3D/sun_3d.png",
+      "sha256": "c9bb15d03d4b1e6151d97e12119ac93bbd2bcb5e713a49c1fcfc11ece54caec1"
+    },
+    {
+      "id": "weather-02",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Star/3D/star_3d.png",
+      "sha256": "b935cdf502b69054bc2b08e7ba4e4eaba6499564a2041dd77d6291e21bf8cfe8"
+    },
+    {
+      "id": "weather-03",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shooting%20star/3D/shooting_star_3d.png",
+      "sha256": "780df133da58745c45b7da2f61e5fadba3c7eeb39ac8372d6703fd01190b47eb"
+    },
+    {
+      "id": "weather-04",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Comet/3D/comet_3d.png",
+      "sha256": "542b2bcedfb07790ff373155f2655304fe72daa8cf92f7cb18f3a8210f51969d"
+    },
+    {
+      "id": "weather-05",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ringed%20planet/3D/ringed_planet_3d.png",
+      "sha256": "e810d03a3d347da5d0cf50cace209c413c963bae9a3c72d7e396ef858574087d"
+    },
+    {
+      "id": "weather-06",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud/3D/cloud_3d.png",
+      "sha256": "a4d4629711661a80f6b6b0081c0f84e65352518b2bf23f4c1bec55e297a9fafc"
+    },
+    {
+      "id": "weather-07",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud%20with%20rain/3D/cloud_with_rain_3d.png",
+      "sha256": "75dd1e6fc5f6b92cbc222ab0b9c10e60f889af2b82453ba784ba0517ffd690b4"
+    },
+    {
+      "id": "weather-08",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud%20with%20snow/3D/cloud_with_snow_3d.png",
+      "sha256": "24d8b8eaf2123f475b7ca32f8dbb702cb26418621c1c1dab7c3a56fa6506e4fd"
+    },
+    {
+      "id": "weather-09",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud%20with%20lightning/3D/cloud_with_lightning_3d.png",
+      "sha256": "e81dfa0546d527f3c27b265df8dd1a27a5d1358fdf711c6fb5ba01195b08bc59"
+    },
+    {
+      "id": "weather-10",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cloud%20with%20lightning%20and%20rain/3D/cloud_with_lightning_and_rain_3d.png",
+      "sha256": "ed1f207db4824e666055faba6461900d24300332926d72379a53f7d904a2cfbe"
+    },
+    {
+      "id": "weather-11",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sun%20behind%20cloud/3D/sun_behind_cloud_3d.png",
+      "sha256": "d4972a180706ee21ad82b903c394c2eae536b72ddd78e80599cbb790570f2c58"
+    },
+    {
+      "id": "weather-12",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sun%20behind%20large%20cloud/3D/sun_behind_large_cloud_3d.png",
+      "sha256": "9853476202c101f1b5913da0b2160d651e491968420f0ac6c57e24bc26a7dba6"
+    },
+    {
+      "id": "weather-13",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sun%20behind%20small%20cloud/3D/sun_behind_small_cloud_3d.png",
+      "sha256": "f39945a2f4b042b7d12ad67462e9bb1b6954c80f79d9b08f3c38d7bfbbb6522e"
+    },
+    {
+      "id": "weather-14",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sun%20behind%20rain%20cloud/3D/sun_behind_rain_cloud_3d.png",
+      "sha256": "4e9aaa34703f42dcde99a32eef923ab0fa196d250260339259477a7c045ba03e"
+    },
+    {
+      "id": "weather-15",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snowflake/3D/snowflake_3d.png",
+      "sha256": "82f12779eb8658ebd4bae02c8136c4588bea55cdf60536d4d88f5eb530e7cb90"
+    },
+    {
+      "id": "weather-16",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snowman/3D/snowman_3d.png",
+      "sha256": "a974301ed9abc99340d1b73331957ffda8e2ea78635ed540bc7020f14e26a678"
+    },
+    {
+      "id": "weather-17",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snowman%20without%20snow/3D/snowman_without_snow_3d.png",
+      "sha256": "97636c1aac3328fb9e7f79db75fa22eda0866975ae948c04be9e9c3cd308c4ce"
+    },
+    {
+      "id": "weather-18",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tornado/3D/tornado_3d.png",
+      "sha256": "48b06fdc54ce6f8debf9dd12e6e2afb2304859f7a3e6ce5b51b1180a317c06ce"
+    },
+    {
+      "id": "weather-19",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cyclone/3D/cyclone_3d.png",
+      "sha256": "4e91e9797d07fbf2a7e6e1b7d5b1af30395abd2b25ec67fe5ddf33364bb728b2"
+    },
+    {
+      "id": "weather-20",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fog/3D/fog_3d.png",
+      "sha256": "445768dba68aabcaf7c5cc825099272fec1fe0550db9d991d6e4be300eb643b0"
+    },
+    {
+      "id": "weather-21",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Foggy/3D/foggy_3d.png",
+      "sha256": "f5edd7d869423b949bf7c181def068af5000c59d5891d89786543fe2afc873fe"
+    },
+    {
+      "id": "weather-22",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Wind%20face/3D/wind_face_3d.png",
+      "sha256": "15725deaeed9ba043402f676670daff2720f09c145b815140cb160b16e98317d"
+    },
+    {
+      "id": "weather-23",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Droplet/3D/droplet_3d.png",
+      "sha256": "e5d71667f30307af984a42f204871b8eef0d3c3af7501e637b50472822c994da"
+    },
+    {
+      "id": "weather-24",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Water%20wave/3D/water_wave_3d.png",
+      "sha256": "b9e2164113966a33f547f336ba5e8b3517bdc28dca7a6646fc3ade9d99e2454c"
+    },
+    {
+      "id": "weather-25",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Umbrella/3D/umbrella_3d.png",
+      "sha256": "2c5f9e611931a759211f0d1879a229f577936c5830ec88cbbc5626f3706e79a4"
+    },
+    {
+      "id": "weather-26",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Umbrella%20with%20rain%20drops/3D/umbrella_with_rain_drops_3d.png",
+      "sha256": "40310c005cf390796e3558d7d2a0758661cd1b4df9840a878fdbbaa4aeb68906"
+    },
+    {
+      "id": "weather-27",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Umbrella%20on%20ground/3D/umbrella_on_ground_3d.png",
+      "sha256": "b6174d1cfb770fd4986c857d22a067f0f2adba9fd059807fe4aa89eb53ed2f91"
+    },
+    {
+      "id": "weather-28",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beach%20with%20umbrella/3D/beach_with_umbrella_3d.png",
+      "sha256": "f1be4e3c04f152edd10eb5d44d850d09b8b3166cc27ca76db1aa19e0106a7cbb"
+    },
+    {
+      "id": "weather-29",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sunrise/3D/sunrise_3d.png",
+      "sha256": "c0c29c2c4d095cd4cd1a8bafbc8a21ad375db82e6b0f11b6d521a994e8343067"
+    },
+    {
+      "id": "weather-30",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sunrise%20over%20mountains/3D/sunrise_over_mountains_3d.png",
+      "sha256": "3cd3d1edcf5c6d804d342eaab966bce64a3771e2e82db6fc302319b4c1efdf2a"
+    },
+    {
+      "id": "weather-31",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sunset/3D/sunset_3d.png",
+      "sha256": "eaf81d22207a684c48758bb85e11d207df4a4bd4ebae21ce98f6a6a8dc8ed5a0"
+    },
+    {
+      "id": "weather-32",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Night%20with%20stars/3D/night_with_stars_3d.png",
+      "sha256": "048d4865f20d20a6c67b3634fbd97689f99b605f09cd5972176e29b0a83f01c3"
+    },
+    {
+      "id": "weather-33",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crescent%20moon/3D/crescent_moon_3d.png",
+      "sha256": "0a5b5192390983789d430e37582dfda343be19bf8246feda73108484771ba09d"
+    },
+    {
+      "id": "weather-34",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/New%20moon/3D/new_moon_3d.png",
+      "sha256": "d035da009afcc21b93aab54728bdebc018edd524220075d22ec9ab1f7a57d1bc"
+    },
+    {
+      "id": "weather-35",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/New%20moon%20face/3D/new_moon_face_3d.png",
+      "sha256": "f5565d019469829e19f6496314380c7a6eb86da071f995f062fae57b6bfb6977"
+    },
+    {
+      "id": "weather-36",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Waxing%20crescent%20moon/3D/waxing_crescent_moon_3d.png",
+      "sha256": "51bde6d57cc91954e10ee42bc223f661b5d7323b9d507c63ae8dc02dffd999bd"
+    },
+    {
+      "id": "weather-37",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/First%20quarter%20moon/3D/first_quarter_moon_3d.png",
+      "sha256": "e5fd47d4be3f2b614897eb1d379675569bf5b4e45574f4558357d76b0a72a22b"
+    },
+    {
+      "id": "weather-38",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/First%20quarter%20moon%20face/3D/first_quarter_moon_face_3d.png",
+      "sha256": "421c52df764dc7b8a53fb368cc6207ea6c6ea93e69572fd1d7b108e0441dc21c"
+    },
+    {
+      "id": "weather-39",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Waxing%20gibbous%20moon/3D/waxing_gibbous_moon_3d.png",
+      "sha256": "4723a54f69a2d9de27793d97270e34546bf5071fe7bfab5b349af123379f980d"
+    },
+    {
+      "id": "weather-40",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Full%20moon%20face/3D/full_moon_face_3d.png",
+      "sha256": "6c4c21b85be8e2009009844455e00b7dff00647d0fe4eb49738ec7378700bc57"
+    },
+    {
+      "id": "weather-41",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Waning%20gibbous%20moon/3D/waning_gibbous_moon_3d.png",
+      "sha256": "ab852de2cb4fa0dc7575fe14184adabad9db21be10a99f7b6cef6b3087514583"
+    },
+    {
+      "id": "weather-42",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Last%20quarter%20moon/3D/last_quarter_moon_3d.png",
+      "sha256": "4d5a07f28be60a408219631b1c8ffa2869793b355d9aa888fbebb189f488a5a4"
+    },
+    {
+      "id": "weather-43",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Last%20quarter%20moon%20face/3D/last_quarter_moon_face_3d.png",
+      "sha256": "e3cfe060ba0e4a3d83c1cbc6623be5da2d50cbde92cc8658df4ad7028bb9d256"
+    },
+    {
+      "id": "weather-44",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Waning%20crescent%20moon/3D/waning_crescent_moon_3d.png",
+      "sha256": "9054f9b379d58d8a88fd4a9fe38324ca041773c35f8066d7bb067be3a16dccaf"
+    },
+    {
+      "id": "weather-45",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mountain/3D/mountain_3d.png",
+      "sha256": "1ad6bb64d9596690fa8074d5abd9175c8e3d6111d44344101bf03f7f763c536a"
+    },
+    {
+      "id": "weather-46",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snow-capped%20mountain/3D/snow-capped_mountain_3d.png",
+      "sha256": "d90e27d3ba0502337756afa1485977da8d5580b60f08c0fa9a1128b60f3f2035"
+    },
+    {
+      "id": "weather-47",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Volcano/3D/volcano_3d.png",
+      "sha256": "fb44ceca45206af4f746699a52de3ef8f324c1827f64763dd2a9813871af5969"
+    },
+    {
+      "id": "weather-48",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Desert%20island/3D/desert_island_3d.png",
+      "sha256": "8ba252c3390d681b29ffb302cfc28027d8f13e7d5e18617761f60420f2257242"
+    },
+    {
+      "id": "weather-49",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dotted%20six-pointed%20star/3D/dotted_six-pointed_star_3d.png",
+      "sha256": "7456e9c29dcf32aa9a54db1ff8a9d7805a03aeda8e33c241241cb3cf09680dba"
+    },
+    {
+      "id": "weather-50",
+      "category": "weather",
+      "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Eight-pointed%20star/3D/eight-pointed_star_3d.png",
+      "sha256": "a8b6d307761b60dc6d041290a85ec45531390c375d50b3778ad6bbc949d31ded"
+    }
+  ]
+}

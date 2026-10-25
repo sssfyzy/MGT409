@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {validatePlan,generate,cost,validateSettings} from '../public/planner.js';
+import {localMeals} from '../public/catalogue.js';
+import {exportPlan,importPlan} from '../public/schedule.js';
+const s={budget:60,perMealBudget:12,target:700,tax:6.35,tip:0,walk:15,vegetarian:false,allowUnknownWalk:true};
+test('one expensive meal fails even when its week is below total derived budget',()=>{const ids=['cg-cheese','cg-cheese','cg-cheese','cg-cheese','ah-salmon'];const checked=validatePlan(ids,s,localMeals);assert.ok(checked.summary.total<60);assert.equal(checked.valid,false);assert.match(checked.errors.join(' '),/per-meal/);});
+test('generated week enforces per-meal tax-and-tip inclusive cap',()=>{const plan=generate(s,'balanced',{},localMeals);assert.equal(plan.length,5);for(const id of plan)assert.ok(cost(localMeals.find(m=>m.id===id),s)<=12);assert.equal(generate({...s,budget:5,perMealBudget:1},'balanced',{},localMeals),null);});
+test('invalid or inconsistent meal caps are rejected',()=>{for(const perMealBudget of [0,201,NaN])assert.equal(validateSettings({...s,perMealBudget}),false);assert.equal(validateSettings({...s,budget:120}),false);});
+test('backups retain the per-meal cap and validate it on restoration',()=>{const state={dataset:'local',settings:s,plan:generate(s,'balanced',{},localMeals),locked:{}};const backup=exportPlan(state,'2026-10-19',localMeals);assert.equal(importPlan(backup,{local:localMeals}).state.settings.perMealBudget,12);backup.plan[0]='cg-tuscan';assert.throws(()=>importPlan(backup,{local:localMeals}));});

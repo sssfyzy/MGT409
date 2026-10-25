@@ -1,0 +1,3 @@
+import markup from '../organizer-markup';
+export const dynamic='force-dynamic';
+export default function Organizer(){return <><link rel="stylesheet" href="/flow.css?v=flow-1" /><link rel="stylesheet" href="/flow-cute.css?v=flow-3" /><link rel="stylesheet" href="/flow-claimant.css?v=flow-5" /><link rel="stylesheet" href="/flow-dialog.css?v=flow-1" /><link rel="stylesheet" href="/help-agent.css?v=1" /><link rel="stylesheet" href="/collection-ui.css?v=1" /><div dangerouslySetInnerHTML={{__html:markup}} /><script type="module" src="/flow.js?v=flow-8" /><script type="module" src="/help-agent.js?v=1" /></>;}

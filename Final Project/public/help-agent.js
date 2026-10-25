@@ -1,0 +1,15 @@
+import {api} from './cloud-client.js?v=guest-2';
+
+const eventId=new URL(location.href).searchParams.get('event');
+if(eventId&&/^[a-zA-Z0-9_-]{1,80}$/.test(eventId)){
+ const root=document.createElement('aside');root.className='hs-help';
+ root.innerHTML='<button class="hs-help-launch" type="button" aria-label="Ask the HolySplit helper" aria-expanded="false"><img src="/mascot.svg" alt=""><span>Ask me!</span></button><section class="hs-help-panel" aria-label="HolySplit AI help" hidden><header><img src="/mascot.svg" alt=""><div><strong>Ask Little Poop</strong><small>Your English HolySplit guide</small></div><button class="hs-help-close" type="button" aria-label="Close help">×</button></header><div class="hs-help-log" role="log" aria-live="polite"></div><div class="hs-help-suggestions"><button type="button">How do I add an item?</button><button type="button">How do I enter actual cost?</button><button type="button">What does my split mean?</button></div><form class="hs-help-form"><label class="sr-only" for="hs-help-input">Ask about using HolySplit</label><input id="hs-help-input" maxlength="500" placeholder="Ask about this activity…" required><button type="submit">Send</button></form><p class="hs-help-note">Read-only help. HolySplit never sends money.</p></section>';
+ document.body.append(root);
+ const launch=root.querySelector('.hs-help-launch'),panel=root.querySelector('.hs-help-panel'),log=root.querySelector('.hs-help-log'),input=root.querySelector('input'),form=root.querySelector('form');
+ function line(text,who){const p=document.createElement('p');p.className='hs-help-line '+who;p.textContent=text;log.append(p);log.scrollTop=log.scrollHeight;return p;}
+ function open(){panel.hidden=false;launch.setAttribute('aria-expanded','true');if(!log.children.length)line('Hi! I can help you build the preparation list, record actual spending, and understand the split. What would you like to know?','agent');input.focus();}
+ function close(){panel.hidden=true;launch.setAttribute('aria-expanded','false');launch.focus();}
+ launch.addEventListener('click',()=>panel.hidden?open():close());root.querySelector('.hs-help-close').addEventListener('click',close);
+ root.querySelectorAll('.hs-help-suggestions button').forEach(button=>button.addEventListener('click',()=>{open();input.value=button.textContent;form.requestSubmit();}));
+ form.addEventListener('submit',async ev=>{ev.preventDefault();const question=input.value.trim();if(!question)return;input.value='';line(question,'user');const waiting=line('Checking the HolySplit guide…','agent');const button=form.querySelector('button');button.disabled=true;try{const view=document.querySelector('[data-view].active')?.dataset.view||'prep';const result=await api('/api/group/events/'+encodeURIComponent(eventId)+'/help',{message:question,view});waiting.textContent=result.reply;}catch(error){waiting.textContent=error.message||'The helper could not answer. Please try again.';waiting.classList.add('error');}finally{button.disabled=false;input.focus();log.scrollTop=log.scrollHeight;}});
+}

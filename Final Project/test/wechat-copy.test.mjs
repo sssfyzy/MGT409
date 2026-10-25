@@ -1,0 +1,4 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {wechatInvitation} from '../public/group-invites.js';
+test('copied WeChat invitation contains one activity link, not financial or contact details',()=>{const text=wechatInvitation({title:'Barbecue',date:'2026-10-24',expenses:[{amountCents:12345}],workflow:{contacts:[{email:'private@example.com'}]}},{url:'https://holysplit.test/join#invite=test-link',expires:Date.parse('2026-10-27T12:00:00Z')});assert.match(text,/HolySplit · Barbecue/);assert.match(text,/2026-10-24/);assert.match(text,/https:\/\/holysplit.test\/join#invite=test-link/);assert.match(text,/Tap to join instantly/);assert.match(text,/Anyone with this link can join/);assert.match(text,/including \$0/);assert.doesNotMatch(text,/private@example|12345/);});
